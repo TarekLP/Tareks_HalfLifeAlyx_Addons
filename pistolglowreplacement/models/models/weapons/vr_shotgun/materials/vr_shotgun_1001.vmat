@@ -1,0 +1,28 @@
+"Layer0"
+{
+	"shader"	"vr_complex.vfx"
+	"F_METALNESS_TEXTURE"	"1"
+	"F_SPECULAR"	"1"
+	"g_nScaleTexCoordUByModelScaleAxis"	"0"
+	"g_nScaleTexCoordVByModelScaleAxis"	"0"
+	"g_bFogEnabled"	"1"
+	"g_flFadeExponent"	"1"
+	"g_flModelTintAmount"	"1"
+	"g_flAmbientOcclusionDirectDiffuse"	"1"
+	"g_flAmbientOcclusionDirectSpecular"	"1"
+	"g_vColorTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"g_vTexCoordOffset"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vTexCoordScale"	"[1.000000 1.000000 0.000000 0.000000]"
+	"g_vTexCoordScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"TextureNormal"	"models/weapons/vr_shotgun/materials/vr_shotgun_1001_normal.png"
+	"TextureRoughness"	"models/weapons/vr_shotgun/materials/vr_shotgun_1001_81314fa0_rough.png"
+	"TextureColor"	"models/weapons/vr_shotgun/materials/vr_shotgun_1001_color.png"
+	"TextureMetalness"	"models/weapons/vr_shotgun/materials/vr_shotgun_1001_8b620b_metal.png"
+	"TextureAmbientOcclusion"	"models/weapons/vr_shotgun/materials/vr_shotgun_1001_ao.png"
+	"Compiled Textures"
+	{
+		"g_tNormal"	"models/weapons/vr_shotgun/materials/vr_shotgun_1001_normal_tga_81314fa0.vtex"
+		"g_tColor"	"models/weapons/vr_shotgun/materials/vr_shotgun_1001_color_tga_8b620b.vtex"
+		"g_tAmbientOcclusion"	"models/weapons/vr_shotgun/materials/vr_shotgun_1001_ao_tga_7eed066e.vtex"
+	}
+}

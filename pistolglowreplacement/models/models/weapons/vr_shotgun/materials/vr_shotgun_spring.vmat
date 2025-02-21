@@ -1,0 +1,27 @@
+"Layer0"
+{
+	"shader"	"vr_complex.vfx"
+	"F_RENDER_BACKFACES"	"1"
+	"F_METALNESS_TEXTURE"	"1"
+	"F_SPECULAR"	"1"
+	"F_ALPHA_TEST"	"1"
+	"g_flAlphaTestReference"	"0.5"
+	"g_vColorTint"	"[0.866667 0.784314 0.749020 0.000000]"
+	"g_vTexCoordOffset"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vTexCoordScale"	"[1.000000 1.000000 0.000000 0.000000]"
+	"g_vTexCoordScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"TextureGlossiness"	"[0.158000 0.188000 0.000000 0.000000]"
+	"TextureMetalness"	"[1.000000 1.000000 1.000000 0.000000]"
+	"TextureAmbientOcclusion"	"materials/default/default_ao.tga"
+	"TextureColor"	"models/weapons/vr_shotgun/materials/spring_color.png"
+	"TextureTranslucency"	"models/weapons/vr_shotgun/materials/spring_db851513_trans.png"
+	"TextureNormal"	"models/weapons/vr_shotgun/materials/spring_normal.png"
+	"TextureRoughness"	"models/weapons/vr_shotgun/materials/spring_504cbb97_rough.png"
+	"Compiled Textures"
+	{
+		"g_tAmbientOcclusion"	"materials/default/default_ao_tga_559f1ac6.vtex"
+		"g_tColor"	"models/weapons/vr_shotgun/materials/spring_color_psd_db851513.vtex"
+		"g_tMetalness"	"models/weapons/vr_shotgun/materials/vr_shotgun_spring_vmat_g_tmetalness_44b7d68b.vtex"
+		"g_tNormal"	"models/weapons/vr_shotgun/materials/spring_normal_tga_504cbb97.vtex"
+	}
+}
