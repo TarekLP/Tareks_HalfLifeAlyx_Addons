@@ -39,8 +39,8 @@ Layer0
 	TextureRoughness "models/weapons/vr_shotgun/materials/shell_636eb79e_rough.png"
 
 	//---- Self Illum ----
-	g_flSelfIllumAlbedoFactor "0.592"
-	g_flSelfIllumBrightness "7.707"
+	g_flSelfIllumAlbedoFactor "0.624"
+	g_flSelfIllumBrightness "8.726"
 	g_flSelfIllumScale "1.000"
 	g_vSelfIllumScrollSpeed "[0.000 0.000]"
 	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
