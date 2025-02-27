@@ -1,0 +1,262 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	Pistol.ClipInsert = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.000000
+		use_hrtf = 1.000000
+		mixgroup = "PlayerWeapons"
+		vsnd_files = 
+		[
+			"sounds/weapons/energy_pistol/pistol_clipin.vsnd",
+		]
+	}
+	Pistol.ClipRelease = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.000000
+		use_hrtf = 1.000000
+		mixgroup = "PlayerWeapons"
+		vsnd_files = 
+		[
+			"sounds/weapons/energy_pistol/pistol_clipout.vsnd",
+		]
+	}
+	Pistol.CloseSlide = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.000000
+		use_hrtf = 1.000000
+		mixgroup = "PlayerWeapons"
+		vsnd_files = 
+		[
+			"sounds/weapons/energy_pistol/pistol_slideforward.vsnd",
+		]
+	}
+	Pistol.NeedSlide = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.000000
+		use_hrtf = 1.000000
+		mixgroup = "PlayerWeapons"
+		vsnd_files = 
+		[
+			"sounds/weapons/energy_pistol/pistol_empty.vsnd",
+		]
+	}
+	Pistol.NoAmmo = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.000000
+		use_hrtf = 1.000000
+		mixgroup = "PlayerWeapons"
+		vsnd_files = 
+		[
+			"sounds/weapons/energy_pistol/pistol_empty.vsnd",
+		]
+	}
+	Pistol.SlideLock = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.000000
+		mixgroup = "PlayerWeapons"
+		vsnd_files = 
+		[
+			"sounds/weapons/energy_pistol/pistol_slideback.vsnd",
+		]
+	}
+	Pistol.LastShotChambered = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.000000
+		pitch_external = 1.150000
+		use_hrtf = 1.000000
+		mixgroup = "PlayerWeapons"
+		vsnd_files = 
+		[
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",
+		]
+	}
+	AlyxPistol.FireHead = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.000000
+		volume_falloff_min = 500.000000
+		volume_falloff_max = 2000.000000
+		use_hrtf = 1.000000
+		mixgroup = "PlayerWeaponFire"
+		vsnd_files = 
+		[
+			"sounds/weapons/energy_pistol/pistol_fire1.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_fire2.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_fire3.vsnd",	
+		]
+	}
+	AlyxPistol.FireBody = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.000000
+		use_hrtf = 0.000000
+		mixgroup = "PlayerWeaponFire"
+		vsnd_files = 
+		[
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+		]
+	}
+	AlyxPistol.FireLFE = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.000000
+		use_hrtf = 0.000000
+		mixgroup = "PlayerWeaponFire"
+		vsnd_files = 
+		[
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+		]
+	}
+	AlyxPistol.FireMech = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.000000
+		mixgroup = "PlayerWeaponFire"
+		vsnd_files = 
+		[
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+		]
+	}
+	AlyxPistol.FireOld = 
+	{
+		type = "hlvr_start_multi"
+		soundevent_01 = "AlyxPistol.FireHead"
+		soundevent_02 = "AlyxPistol.FireBody"
+		soundevent_03 = "AlyxPistol.FireLFE"
+		soundevent_04 = "AlyxPistol.FireMech"
+		use_01 = 1.000000
+		use_02 = 1.000000
+		use_03 = 1.000000
+		use_04 = 1.000000
+	}
+	Pistol.BurstFireSwitch = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.000000
+		use_hrtf = 1.000000
+		mixgroup = "PlayerWeapons"
+		vsnd_files = 
+		[
+			"sounds/weapons/energy_pistol/pistol_burst_toggle.vsnd",	
+		]
+	}
+	AlyxPistol.Fire = 
+	{
+		type = "hlvr_player_gun_layers_3d"
+		volume = 1.000000
+		ambient_ducking_pct = 0.500000
+		limiter_on = 1.000000
+		limiter_event_name = "AlyxPistol.Fire"
+		limiter_max = 8.000000
+		limiter_match_entity = 1.000000
+		limiter_stop_oldest = true
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.030000
+		direct_mix_level = 1.000000
+		enable_limiter = 1.000000
+		volume_falloff_head_min = 1500.000000
+		volume_falloff_head_max = 2400.000000
+		volume_head = 0.900000
+		volume_falloff_body_min = 1500.000000
+		volume_falloff_body_max = 2400.000000
+		volume_body = 0.850000
+		volume_falloff_lfe_min = 1500.000000
+		volume_falloff_lfe_max = 4000.000000
+		volume_lfe = 0.800000
+		volume_falloff_tail_min = 1800.000000
+		volume_falloff_tail_max = 5000.000000
+		volume_tail = 0.200000
+		mixgroup = "PlayerWeaponFire"
+		memory_type = 10
+		preload_vsnds = 1
+		vsnd_files_head = 
+		[
+			"sounds/weapons/energy_pistol/pistol_fire1.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_fire2.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_fire3.vsnd",	
+		]
+		vsnd_files_body = 
+		[
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+		]
+		vsnd_files_lfe = 
+		[
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+		]
+		vsnd_files_tail = 
+		[
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+		]
+	}
+	AlyxPistol.FireDry = 
+	{
+		type = "hlvr_player_gun_layers_3d"
+		volume = 1.000000
+		ambient_ducking_pct = 0.500000
+		limiter_on = 1.000000
+		limiter_event_name = "AlyxPistol.Fire"
+		limiter_max = 8.000000
+		limiter_match_entity = 1.000000
+		limiter_stop_oldest = true
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.030000
+		direct_mix_level = 1.000000
+		enable_limiter = 1.000000
+		volume_falloff_head_min = 1500.000000
+		volume_falloff_head_max = 2400.000000
+		volume_head = 0.900000
+		volume_falloff_body_min = 1500.000000
+		volume_falloff_body_max = 2400.000000
+		volume_body = 0.850000
+		volume_falloff_lfe_min = 1500.000000
+		volume_falloff_lfe_max = 4000.000000
+		volume_lfe = 0.800000
+		volume_falloff_tail_min = 1800.000000
+		volume_falloff_tail_max = 5000.000000
+		volume_tail = 0.200000
+		mixgroup = "PlayerWeaponFire"
+		vsnd_files_head = 
+		[
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+		]
+		vsnd_files_body = 
+		[
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+		]
+		vsnd_files_lfe = 
+		[
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_silence.vsnd",	
+		]
+		vsnd_files_tail = 
+		[
+			"sounds/weapons/energy_pistol/pistol_fire1.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_fire2.vsnd",	
+			"sounds/weapons/energy_pistol/pistol_fire3.vsnd",	
+		]
+	}
+}
