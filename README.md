@@ -1,4 +1,3 @@
 # Tareks_HalfLifeAlyx_Addons
- Collection of all the Addons ive published / worked on.
-
- Also includes a copy of the FGDs I use (Outdated though as I use FrostEpex's FGDs now.)
+This is a collection of every single Half-Life: Alyx addon ive worked on.
+This also includes the NoVR Script and FGD files used to create these.
