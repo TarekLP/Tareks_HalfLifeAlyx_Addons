@@ -1,4 +1,4 @@
-# Tareks_HalfLifeAlyx_Addons
- Collection of all the Addons ive published / worked on.
+# **Tarek's Custom FGD Files**
 
- Also includes a copy of the FGDs I use (Outdated though as I use FrostEpex's FGDs now.)
+## Introduction
+These are the 2 old FGD Files I used to use before I switched over to FrostEpex's FGD files which are objectively better. Im keeping these ones up incase anyone wants to see what Survival Waves: City Defense and pistolglowreplacement were made with.
