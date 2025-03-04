@@ -2,7 +2,7 @@
 ----------------------------------------------------------
 
 ## **The Premise:**
-Alyx is trapped in a small city block that the combine have locked down beforehand.. Alyx needs to survive for as long as possible since the combine are out to get her. Luckily for Alyx, she has her wits (and some headphones for that banger music) to help her while she is doing questionably ethical things.
+Alyx finds herself trapped in a city block under siege by the relentless Combine forces. She has her wits (and her headphones with some banger music), to do some questionably ethical stuff (including killing Combnie.).
 
 ------------------------------------------------------------------------------------------------------------------
 
