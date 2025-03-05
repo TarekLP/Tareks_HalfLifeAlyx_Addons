@@ -7,6 +7,7 @@ RTR1_USEVORTENERGY = "B"
 -- TODO implement addon list ids checking?
 local addonMaps = {
     -- Survival Waves: Tarek's Custom City Defense
+    "street"
     "city-defense"
 	-- Extra-Ordinary Value
 	"youreawake",
