@@ -1,0 +1,1637 @@
+<!-- dmx encoding keyvalues2 4 format model 22 -->
+"DmElement"
+{
+    "id" "elementid" "3554ee3f-f0cf-44b9-9aa0-a5849c09d4de"
+    "name" "string" "root"
+    "skeleton" "DmeModel"
+    {
+        "id" "elementid" "f9237e3a-eeac-4042-b026-e924d2cabf83"
+        "transform" "DmeTransform"
+        {
+            "id" "elementid" "fa26be7b-f0c2-40c9-bcdb-02799cd93d79"
+            "position" "vector3" "0 0 0"
+            "orientation" "quaternion" "0 0 0 1"
+        }
+        "shape" "element" ""
+        "visible" "bool" "1"
+        "children" "element_array"
+        [
+            "DmeDag"
+            {
+                "id" "elementid" "677bc590-e35d-46ed-9542-f46aa9c52aaf"
+                "name" "string" "hopper_pips"
+                "transform" "element" "6d25d0bb-dea8-4946-9191-45c0af745ae2"
+                "shape" "DmeMesh"
+                {
+                    "id" "elementid" "1ac23c89-510f-4caa-a111-5db4213fa4a6"
+                    "visible" "bool" "1"
+                    "bindState" "element" ""
+                    "currentState" "element" ""
+                    "baseStates" "element_array" [ ]
+                    "deltaStates" "element_array" [ ]
+                    "faceSets" "element_array" [ ]
+                    "deltaStateWeights" "vector2_array" [ ]
+                    "deltaStateWeightsLagged" "vector2_array" [ ]
+                }
+                "visible" "bool" "1"
+                "children" "element_array"
+                [
+                    "DmeDag"
+                    {
+                        "id" "elementid" "67e19a76-d55b-46a1-a034-9f02c71b3ebf"
+                        "name" "string" "joint21"
+                        "transform" "element" "939eb890-612c-42b6-9569-65fd361bd64d"
+                        "shape" "DmeMesh"
+                        {
+                            "id" "elementid" "6a92e030-22cd-476b-adc7-d135928a1f84"
+                            "visible" "bool" "1"
+                            "bindState" "element" ""
+                            "currentState" "element" ""
+                            "baseStates" "element_array" [ ]
+                            "deltaStates" "element_array" [ ]
+                            "faceSets" "element_array" [ ]
+                            "deltaStateWeights" "vector2_array" [ ]
+                            "deltaStateWeightsLagged" "vector2_array" [ ]
+                        }
+                        "visible" "bool" "1"
+                        "children" "element_array"
+                        [
+                            "DmeDag"
+                            {
+                                "id" "elementid" "02a3bb3a-49f5-443c-89af-9e785215c329"
+                                "name" "string" "joint20"
+                                "transform" "element" "e4db9bb2-434e-4696-b721-c9b03225b5e7"
+                                "shape" "DmeMesh"
+                                {
+                                    "id" "elementid" "a7ff5d85-2f5f-48f5-96d1-23ba754571e2"
+                                    "visible" "bool" "1"
+                                    "bindState" "element" ""
+                                    "currentState" "element" ""
+                                    "baseStates" "element_array" [ ]
+                                    "deltaStates" "element_array" [ ]
+                                    "faceSets" "element_array" [ ]
+                                    "deltaStateWeights" "vector2_array" [ ]
+                                    "deltaStateWeightsLagged" "vector2_array" [ ]
+                                }
+                                "visible" "bool" "1"
+                                "children" "element_array" [ ]
+                            },
+                            "DmeDag"
+                            {
+                                "id" "elementid" "04e6a127-cce4-4b3a-8cc0-91e2af58496e"
+                                "name" "string" "joint19"
+                                "transform" "element" "cb97eea4-b252-4b3e-8f68-4ef6b793c713"
+                                "shape" "DmeMesh"
+                                {
+                                    "id" "elementid" "70fddcd7-36e4-4d45-a49c-cb474ffe7b58"
+                                    "visible" "bool" "1"
+                                    "bindState" "element" ""
+                                    "currentState" "element" ""
+                                    "baseStates" "element_array" [ ]
+                                    "deltaStates" "element_array" [ ]
+                                    "faceSets" "element_array" [ ]
+                                    "deltaStateWeights" "vector2_array" [ ]
+                                    "deltaStateWeightsLagged" "vector2_array" [ ]
+                                }
+                                "visible" "bool" "1"
+                                "children" "element_array" [ ]
+                            },
+                            "DmeDag"
+                            {
+                                "id" "elementid" "4bb70a92-e57f-41c4-a3f0-9ab164ba459b"
+                                "name" "string" "joint18"
+                                "transform" "element" "4785bea7-0376-4d2b-b7ca-097f8a1a6c9e"
+                                "shape" "DmeMesh"
+                                {
+                                    "id" "elementid" "e0bfc6a6-169f-40cd-83c3-c06572340a2a"
+                                    "visible" "bool" "1"
+                                    "bindState" "element" ""
+                                    "currentState" "element" ""
+                                    "baseStates" "element_array" [ ]
+                                    "deltaStates" "element_array" [ ]
+                                    "faceSets" "element_array" [ ]
+                                    "deltaStateWeights" "vector2_array" [ ]
+                                    "deltaStateWeightsLagged" "vector2_array" [ ]
+                                }
+                                "visible" "bool" "1"
+                                "children" "element_array" [ ]
+                            },
+                            "DmeDag"
+                            {
+                                "id" "elementid" "5fc14db6-2c2c-46c6-b383-18ef80fccf43"
+                                "name" "string" "joint15"
+                                "transform" "element" "9af508aa-a2f2-4290-a187-4fdca6d20fc8"
+                                "shape" "DmeMesh"
+                                {
+                                    "id" "elementid" "1667db57-e9ca-47e7-9518-bd2589708b86"
+                                    "visible" "bool" "1"
+                                    "bindState" "element" ""
+                                    "currentState" "element" ""
+                                    "baseStates" "element_array" [ ]
+                                    "deltaStates" "element_array" [ ]
+                                    "faceSets" "element_array" [ ]
+                                    "deltaStateWeights" "vector2_array" [ ]
+                                    "deltaStateWeightsLagged" "vector2_array" [ ]
+                                }
+                                "visible" "bool" "1"
+                                "children" "element_array" [ ]
+                            },
+                            "DmeDag"
+                            {
+                                "id" "elementid" "7ca47225-c14b-4290-a066-f43100625c4d"
+                                "name" "string" "joint16"
+                                "transform" "element" "05ba2c14-67fb-4d32-8c92-d948904da9e5"
+                                "shape" "DmeMesh"
+                                {
+                                    "id" "elementid" "cc257ee4-9a37-4b98-ae90-9714e841d129"
+                                    "visible" "bool" "1"
+                                    "bindState" "element" ""
+                                    "currentState" "element" ""
+                                    "baseStates" "element_array" [ ]
+                                    "deltaStates" "element_array" [ ]
+                                    "faceSets" "element_array" [ ]
+                                    "deltaStateWeights" "vector2_array" [ ]
+                                    "deltaStateWeightsLagged" "vector2_array" [ ]
+                                }
+                                "visible" "bool" "1"
+                                "children" "element_array" [ ]
+                            },
+                            "DmeDag"
+                            {
+                                "id" "elementid" "a212d819-fa83-4592-af54-c059f86191ab"
+                                "name" "string" "joint17"
+                                "transform" "element" "5833eaaf-0144-4856-8c4b-5d4f78bd35fa"
+                                "shape" "DmeMesh"
+                                {
+                                    "id" "elementid" "3ee8362f-8b90-468d-b51a-aa6fad9e8c83"
+                                    "visible" "bool" "1"
+                                    "bindState" "element" ""
+                                    "currentState" "element" ""
+                                    "baseStates" "element_array" [ ]
+                                    "deltaStates" "element_array" [ ]
+                                    "faceSets" "element_array" [ ]
+                                    "deltaStateWeights" "vector2_array" [ ]
+                                    "deltaStateWeightsLagged" "vector2_array" [ ]
+                                }
+                                "visible" "bool" "1"
+                                "children" "element_array" [ ]
+                            },
+                            "DmeDag"
+                            {
+                                "id" "elementid" "5ead9f46-f57c-4085-8207-dd770a2edae8"
+                                "name" "string" "joint11"
+                                "transform" "element" "a4112d75-221c-4091-813f-670974400388"
+                                "shape" "DmeMesh"
+                                {
+                                    "id" "elementid" "c77819d8-a6ac-4db6-8d71-9784dde352dc"
+                                    "visible" "bool" "1"
+                                    "bindState" "element" ""
+                                    "currentState" "element" ""
+                                    "baseStates" "element_array" [ ]
+                                    "deltaStates" "element_array" [ ]
+                                    "faceSets" "element_array" [ ]
+                                    "deltaStateWeights" "vector2_array" [ ]
+                                    "deltaStateWeightsLagged" "vector2_array" [ ]
+                                }
+                                "visible" "bool" "1"
+                                "children" "element_array" [ ]
+                            },
+                            "DmeDag"
+                            {
+                                "id" "elementid" "876447e0-3713-4bcc-8852-38d6791bca0a"
+                                "name" "string" "joint12"
+                                "transform" "element" "87a53a37-636c-4c05-bcf8-b131716b12ee"
+                                "shape" "DmeMesh"
+                                {
+                                    "id" "elementid" "cba6e1c7-7093-4b31-9ece-d88ba54ff82e"
+                                    "visible" "bool" "1"
+                                    "bindState" "element" ""
+                                    "currentState" "element" ""
+                                    "baseStates" "element_array" [ ]
+                                    "deltaStates" "element_array" [ ]
+                                    "faceSets" "element_array" [ ]
+                                    "deltaStateWeights" "vector2_array" [ ]
+                                    "deltaStateWeightsLagged" "vector2_array" [ ]
+                                }
+                                "visible" "bool" "1"
+                                "children" "element_array" [ ]
+                            },
+                            "DmeDag"
+                            {
+                                "id" "elementid" "9d923154-f92c-4a1c-809e-411a1869dfdf"
+                                "name" "string" "joint13"
+                                "transform" "element" "f6900373-c777-45b2-bd8b-01083842c318"
+                                "shape" "DmeMesh"
+                                {
+                                    "id" "elementid" "8cfe6bf8-faf2-4c4a-9a31-aa0a0709cfac"
+                                    "visible" "bool" "1"
+                                    "bindState" "element" ""
+                                    "currentState" "element" ""
+                                    "baseStates" "element_array" [ ]
+                                    "deltaStates" "element_array" [ ]
+                                    "faceSets" "element_array" [ ]
+                                    "deltaStateWeights" "vector2_array" [ ]
+                                    "deltaStateWeightsLagged" "vector2_array" [ ]
+                                }
+                                "visible" "bool" "1"
+                                "children" "element_array" [ ]
+                            },
+                            "DmeDag"
+                            {
+                                "id" "elementid" "baa17e2a-0f31-4711-8a18-f8f31d137bb4"
+                                "name" "string" "joint14"
+                                "transform" "element" "70279c9f-09a6-4767-a32b-5579d2160595"
+                                "shape" "DmeMesh"
+                                {
+                                    "id" "elementid" "f4de5c77-3374-4839-930b-05293fb456b9"
+                                    "visible" "bool" "1"
+                                    "bindState" "element" ""
+                                    "currentState" "element" ""
+                                    "baseStates" "element_array" [ ]
+                                    "deltaStates" "element_array" [ ]
+                                    "faceSets" "element_array" [ ]
+                                    "deltaStateWeights" "vector2_array" [ ]
+                                    "deltaStateWeightsLagged" "vector2_array" [ ]
+                                }
+                                "visible" "bool" "1"
+                                "children" "element_array" [ ]
+                            },
+                            "DmeDag"
+                            {
+                                "id" "elementid" "8dfd413c-6e4b-4ce1-9392-ef14d1a0c37d"
+                                "name" "string" "joint10"
+                                "transform" "element" "1a9baf0c-5410-4fd0-b968-fe6c92ad02b3"
+                                "shape" "DmeMesh"
+                                {
+                                    "id" "elementid" "eacbd238-f28c-43fa-a340-586cedacaaee"
+                                    "visible" "bool" "1"
+                                    "bindState" "element" ""
+                                    "currentState" "element" ""
+                                    "baseStates" "element_array" [ ]
+                                    "deltaStates" "element_array" [ ]
+                                    "faceSets" "element_array" [ ]
+                                    "deltaStateWeights" "vector2_array" [ ]
+                                    "deltaStateWeightsLagged" "vector2_array" [ ]
+                                }
+                                "visible" "bool" "1"
+                                "children" "element_array" [ ]
+                            },
+                            "DmeDag"
+                            {
+                                "id" "elementid" "61223269-5ee0-4fc2-b7d5-7e7827c6cf1b"
+                                "name" "string" "joint9"
+                                "transform" "element" "2134ffcf-37e8-48c1-945c-c2a28c5c1b10"
+                                "shape" "DmeMesh"
+                                {
+                                    "id" "elementid" "37a0e410-6cdb-4e7a-8fae-2134ccec1944"
+                                    "visible" "bool" "1"
+                                    "bindState" "element" ""
+                                    "currentState" "element" ""
+                                    "baseStates" "element_array" [ ]
+                                    "deltaStates" "element_array" [ ]
+                                    "faceSets" "element_array" [ ]
+                                    "deltaStateWeights" "vector2_array" [ ]
+                                    "deltaStateWeightsLagged" "vector2_array" [ ]
+                                }
+                                "visible" "bool" "1"
+                                "children" "element_array" [ ]
+                            },
+                            "DmeDag"
+                            {
+                                "id" "elementid" "44723401-8dd5-4187-80fc-fe8ad47d14cc"
+                                "name" "string" "joint8"
+                                "transform" "element" "4d7b0304-3652-459b-9e81-2820441cab53"
+                                "shape" "DmeMesh"
+                                {
+                                    "id" "elementid" "d58cecc9-37b9-451d-9a1a-44586925c4b9"
+                                    "visible" "bool" "1"
+                                    "bindState" "element" ""
+                                    "currentState" "element" ""
+                                    "baseStates" "element_array" [ ]
+                                    "deltaStates" "element_array" [ ]
+                                    "faceSets" "element_array" [ ]
+                                    "deltaStateWeights" "vector2_array" [ ]
+                                    "deltaStateWeightsLagged" "vector2_array" [ ]
+                                }
+                                "visible" "bool" "1"
+                                "children" "element_array" [ ]
+                            }
+                        ]
+                    },
+                    "DmeDag"
+                    {
+                        "id" "elementid" "0cd6d058-1c6d-464b-b8d5-23b219dedaa6"
+                        "name" "string" "joint22"
+                        "transform" "element" "5e53cad7-4bf9-4472-a166-e8db8da133fb"
+                        "shape" "DmeMesh"
+                        {
+                            "id" "elementid" "4d2b76f4-c401-4275-9472-f5c5f56194dc"
+                            "visible" "bool" "1"
+                            "bindState" "element" ""
+                            "currentState" "element" ""
+                            "baseStates" "element_array" [ ]
+                            "deltaStates" "element_array" [ ]
+                            "faceSets" "element_array" [ ]
+                            "deltaStateWeights" "vector2_array" [ ]
+                            "deltaStateWeightsLagged" "vector2_array" [ ]
+                        }
+                        "visible" "bool" "1"
+                        "children" "element_array" [ ]
+                    }
+                ]
+            }
+        ]
+        "jointList" "element_array" [ ]
+        "baseStates" "element_array" [ ]
+        "axisSystem" "DmeAxisSystem"
+        {
+            "id" "elementid" "5f0b48a4-e5b3-4a8b-814b-817059a1e274"
+            "upAxis" "int" "3"
+            "forwardParity" "int" "1"
+            "coordSys" "int" "0"
+        }
+    }
+    "animationList" "DmeAnimationList"
+    {
+        "id" "elementid" "e1908161-8194-482f-95f3-5f6a6d3e4bf2"
+        "animations" "element_array"
+        [
+            "DmeChannelsClip"
+            {
+                "id" "elementid" "3d2b5640-13db-4275-be35-8502ccbdedf8"
+                "timeFrame" "DmeTimeFrame"
+                {
+                    "id" "elementid" "6b7f0941-144a-43ba-b6a9-663dcdda0971"
+                    "start" "time" "0"
+                    "duration" "time" "3.3333333"
+                    "offset" "time" "0"
+                    "scale" "float" "1"
+                }
+                "color" "color" "0 0 0 0"
+                "text" "string" ""
+                "mute" "bool" "0"
+                "trackGroups" "element_array" [ ]
+                "displayScale" "float" "1"
+                "channels" "element_array"
+                [
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "2d43482a-1916-4ff7-9ada-2915b05a33ab"
+                        "name" "string" "hopper_pips_p"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "6d25d0bb-dea8-4946-9191-45c0af745ae2"
+                        "toAttribute" "string" "position"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeVector3Log"
+                        {
+                            "id" "elementid" "244315f0-d82d-4b31-91a8-6cb49bd2e809"
+                            "name" "string" "vector3 log"
+                            "layers" "element_array"
+                            [
+                                "DmeVector3LogLayer"
+                                {
+                                    "id" "elementid" "63c2aaaa-976c-4bc5-8a91-39ef43177bea"
+                                    "name" "string" "vector3 log"
+                                    "times" "time_array" [ "-0.1", "-0.05", "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "vector3_array" [ "0 0 0.0001", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0", "0 0 0" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "vector3" "0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "aaff7d61-c280-48a7-b2a2-56393a7bb8e4"
+                        "name" "string" "hopper_pips_o"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "6d25d0bb-dea8-4946-9191-45c0af745ae2"
+                        "toAttribute" "string" "orientation"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeQuaternionLog"
+                        {
+                            "id" "elementid" "9bec0e8b-6434-4764-8bb8-459dc4c6459c"
+                            "name" "string" "quaternion log"
+                            "layers" "element_array"
+                            [
+                                "DmeQuaternionLogLayer"
+                                {
+                                    "id" "elementid" "d42551ff-68a8-4f26-af79-6befd4eb9495"
+                                    "name" "string" "quaternion log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "quaternion_array" [ "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466", "0.5001602 0.4999466 0.4999466 0.4999466" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "quaternion" "0 0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "f661b6bd-f2cf-4dcd-b1f6-f2a8386b7f28"
+                        "name" "string" "joint21_p"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "939eb890-612c-42b6-9569-65fd361bd64d"
+                        "toAttribute" "string" "position"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeVector3Log"
+                        {
+                            "id" "elementid" "7f9955a9-2e71-49de-bbe2-95d9b7eeec8b"
+                            "name" "string" "vector3 log"
+                            "layers" "element_array"
+                            [
+                                "DmeVector3LogLayer"
+                                {
+                                    "id" "elementid" "3a746eab-a90c-4881-9ef8-60550e48a295"
+                                    "name" "string" "vector3 log"
+                                    "times" "time_array" [ "-0.1", "-0.05", "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "vector3_array" [ "-0.9189453 2.5039062 1.1534203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203", "-0.9189453 2.5039062 1.1533203" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "vector3" "0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "b55bd043-0104-4322-980d-68d3c95fd32e"
+                        "name" "string" "joint21_o"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "939eb890-612c-42b6-9569-65fd361bd64d"
+                        "toAttribute" "string" "orientation"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeQuaternionLog"
+                        {
+                            "id" "elementid" "cad325e2-6bff-4653-b7f6-ab66653ef772"
+                            "name" "string" "quaternion log"
+                            "layers" "element_array"
+                            [
+                                "DmeQuaternionLogLayer"
+                                {
+                                    "id" "elementid" "f1270c96-8d42-443b-801a-f2559663e72c"
+                                    "name" "string" "quaternion log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "quaternion_array" [ "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "quaternion" "0 0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "5def26a0-fb7f-4213-b538-faf0e720bf57"
+                        "name" "string" "joint20_p"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "e4db9bb2-434e-4696-b721-c9b03225b5e7"
+                        "toAttribute" "string" "position"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeVector3Log"
+                        {
+                            "id" "elementid" "1f7d2056-8c92-473b-b7c5-7e83c3ecdd9e"
+                            "name" "string" "vector3 log"
+                            "layers" "element_array"
+                            [
+                                "DmeVector3LogLayer"
+                                {
+                                    "id" "elementid" "9237f3ea-9292-40fb-aa35-4bf1f13e8267"
+                                    "name" "string" "vector3 log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "vector3_array" [ "0.016693115 0 -0.6777344", "0.02128601 2.3841858E-07 -0.6777344", "0.03378296 0 -0.6777344", "0.052093506 -2.3841858E-07 -0.6777344", "0.074401855 0 -0.6777344", "0.09875488 0 -0.6777344", "0.122924805 0 -0.6777344", "0.1451416 0 -0.6777344", "0.16357422 -2.3841858E-07 -0.6777344", "0.17602539 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 2.3841858E-07 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 2.3841858E-07 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "vector3" "0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "973e3a0c-40b1-490a-898e-77b437a045c5"
+                        "name" "string" "joint20_o"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "e4db9bb2-434e-4696-b721-c9b03225b5e7"
+                        "toAttribute" "string" "orientation"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeQuaternionLog"
+                        {
+                            "id" "elementid" "c09c3f98-a27b-4640-b5d2-09df6b07d853"
+                            "name" "string" "quaternion log"
+                            "layers" "element_array"
+                            [
+                                "DmeQuaternionLogLayer"
+                                {
+                                    "id" "elementid" "6a4c1f6b-a43b-4735-9535-bab6f39a9711"
+                                    "name" "string" "quaternion log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "quaternion_array" [ "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "quaternion" "0 0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "8bee0789-13eb-44df-8089-c3007befec4e"
+                        "name" "string" "joint19_p"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "cb97eea4-b252-4b3e-8f68-4ef6b793c713"
+                        "toAttribute" "string" "position"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeVector3Log"
+                        {
+                            "id" "elementid" "59ec82d0-37f1-4355-8a14-202d590ddf12"
+                            "name" "string" "vector3 log"
+                            "layers" "element_array"
+                            [
+                                "DmeVector3LogLayer"
+                                {
+                                    "id" "elementid" "4c2a6444-d58a-4cab-a4d2-adad6578039d"
+                                    "name" "string" "vector3 log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "vector3_array" [ "-0.42089844 0.31884766 -0.6777344", "-0.4086914 0.30981445 -0.6777344", "-0.37524414 0.28564453 -0.6777344", "-0.32641602 0.25 -0.6777344", "-0.2668457 0.20666504 -0.6777344", "-0.2019043 0.15930176 -0.6777344", "-0.1373291 0.11224365 -0.6777344", "-0.077819824 0.068847656 -0.6777344", "-0.028701782 0.033081055 -0.6777344", "0.0044441223 0.008926392 -0.6777344", "0.016693115 0 -0.6777344", "0.021316528 2.3841858E-07 -0.6777344", "0.03375244 0 -0.6777344", "0.052093506 0 -0.6777344", "0.07446289 0 -0.6777344", "0.09863281 -2.3841858E-07 -0.6777344", "0.122924805 0 -0.6777344", "0.14526367 0 -0.6777344", "0.16357422 0 -0.6777344", "0.17602539 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 -2.3841858E-07 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 -2.3841858E-07 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 -2.3841858E-07 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 2.3841858E-07 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "vector3" "0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "1d0071c8-490b-44f2-9134-008fe5d2fab7"
+                        "name" "string" "joint19_o"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "cb97eea4-b252-4b3e-8f68-4ef6b793c713"
+                        "toAttribute" "string" "orientation"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeQuaternionLog"
+                        {
+                            "id" "elementid" "136a13bb-681a-4d87-a5e6-01388f32d471"
+                            "name" "string" "quaternion log"
+                            "layers" "element_array"
+                            [
+                                "DmeQuaternionLogLayer"
+                                {
+                                    "id" "elementid" "b5d690e3-c4c2-4286-bb5e-ef207b556f2f"
+                                    "name" "string" "quaternion log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "quaternion_array" [ "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "quaternion" "0 0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "7c2e7f03-0473-49bf-ae6f-67595d5fede6"
+                        "name" "string" "joint18_p"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "4785bea7-0376-4d2b-b7ca-097f8a1a6c9e"
+                        "toAttribute" "string" "position"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeVector3Log"
+                        {
+                            "id" "elementid" "388b60dc-c3cc-4549-b97b-e6d9afa2301f"
+                            "name" "string" "vector3 log"
+                            "layers" "element_array"
+                            [
+                                "DmeVector3LogLayer"
+                                {
+                                    "id" "elementid" "a56db6fe-7df7-4912-b188-5ea0b0832edc"
+                                    "name" "string" "vector3 log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "vector3_array" [ "-0.91845703 0.08532715 -0.6777344", "-0.9042969 0.09185791 -0.6777344", "-0.86621094 0.109680176 -0.6777344", "-0.81103516 0.13574219 -0.6777344", "-0.74316406 0.16748047 -0.6777344", "-0.6694336 0.20227051 -0.6777344", "-0.5957031 0.23669434 -0.6777344", "-0.5283203 0.26831055 -0.6777344", "-0.4724121 0.29467773 -0.6777344", "-0.43481445 0.31225586 -0.6777344", "-0.42089844 0.31884766 -0.6777344", "-0.40844727 0.30981445 -0.6777344", "-0.37524414 0.28564453 -0.6777344", "-0.32592773 0.25 -0.6777344", "-0.26611328 0.20654297 -0.6777344", "-0.20129395 0.15942383 -0.6777344", "-0.13623047 0.11224365 -0.6777344", "-0.07635498 0.06878662 -0.6777344", "-0.027328491 0.033172607 -0.6777344", "0.0060577393 0.008926392 -0.6777344", "0.018371582 0 -0.6777344", "0.022903442 0 -0.6777344", "0.035217285 -2.3841858E-07 -0.6777344", "0.053466797 0 -0.6777344", "0.07543945 0 -0.6777344", "0.099487305 0 -0.6777344", "0.12359619 0 -0.6777344", "0.14550781 2.3841858E-07 -0.6777344", "0.16369629 0 -0.6777344", "0.17614746 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 -2.3841858E-07 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 2.3841858E-07 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "vector3" "0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "64b10fc9-59b0-4b17-8e24-636e01d5abc2"
+                        "name" "string" "joint18_o"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "4785bea7-0376-4d2b-b7ca-097f8a1a6c9e"
+                        "toAttribute" "string" "orientation"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeQuaternionLog"
+                        {
+                            "id" "elementid" "bfcb4767-af9c-4801-bf4b-57c28f18abf3"
+                            "name" "string" "quaternion log"
+                            "layers" "element_array"
+                            [
+                                "DmeQuaternionLogLayer"
+                                {
+                                    "id" "elementid" "f78d8f5c-3457-4cd4-ad1a-3f8c89ddda03"
+                                    "name" "string" "quaternion log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "quaternion_array" [ "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "quaternion" "0 0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "9fb2f6fd-00b3-4521-b7fd-16b684ca9c67"
+                        "name" "string" "joint15_p"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "9af508aa-a2f2-4290-a187-4fdca6d20fc8"
+                        "toAttribute" "string" "position"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeVector3Log"
+                        {
+                            "id" "elementid" "ef71e1c9-6c45-464f-81bf-43debacf4a8f"
+                            "name" "string" "vector3 log"
+                            "layers" "element_array"
+                            [
+                                "DmeVector3LogLayer"
+                                {
+                                    "id" "elementid" "e78bdc63-ad7e-4db9-87bd-a667b9e9321d"
+                                    "name" "string" "vector3 log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "vector3_array" [ "-0.96875 -0.4284668 -0.6777344", "-0.96728516 -0.4140625 -0.6777344", "-0.9633789 -0.37475586 -0.6777344", "-0.9580078 -0.3173828 -0.6777344", "-0.9511719 -0.2475586 -0.6777344", "-0.9433594 -0.17126465 -0.6777344", "-0.93603516 -0.09552002 -0.6777344", "-0.9291992 -0.025634766 -0.6777344", "-0.92333984 0.03201294 -0.6777344", "-0.9199219 0.07092285 -0.6777344", "-0.91845703 0.08532715 -0.6777344", "-0.9042969 0.09185791 -0.6777344", "-0.8666992 0.109436035 -0.6777344", "-0.81103516 0.13537598 -0.6777344", "-0.7426758 0.16711426 -0.6777344", "-0.6694336 0.20129395 -0.6777344", "-0.5957031 0.2355957 -0.6777344", "-0.52783203 0.26708984 -0.6777344", "-0.47265625 0.2932129 -0.6777344", "-0.43481445 0.31079102 -0.6777344", "-0.42089844 0.31713867 -0.6777344", "-0.4086914 0.3083496 -0.6777344", "-0.37548828 0.2841797 -0.6777344", "-0.32617188 0.24865723 -0.6777344", "-0.2668457 0.2055664 -0.6777344", "-0.20227051 0.15856934 -0.6777344", "-0.1373291 0.111572266 -0.6777344", "-0.078125 0.06854248 -0.6777344", "-0.029174805 0.032989502 -0.6777344", "0.00409317 0.008857727 -0.6777344", "0.016296387 0 -0.6777344", "0.020889282 2.3841858E-07 -0.6777344", "0.033447266 0 -0.6777344", "0.05178833 0 -0.6777344", "0.074157715 0 -0.6777344", "0.09851074 -2.3841858E-07 -0.6777344", "0.122802734 0 -0.6777344", "0.1451416 0 -0.6777344", "0.16357422 0 -0.6777344", "0.17602539 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 -2.3841858E-07 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 2.3841858E-07 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "vector3" "0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "d3805539-6f0d-4d5c-b496-ad47ceff44fb"
+                        "name" "string" "joint15_o"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "9af508aa-a2f2-4290-a187-4fdca6d20fc8"
+                        "toAttribute" "string" "orientation"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeQuaternionLog"
+                        {
+                            "id" "elementid" "a5ed5c22-fdab-43dc-899e-7e493ea7d638"
+                            "name" "string" "quaternion log"
+                            "layers" "element_array"
+                            [
+                                "DmeQuaternionLogLayer"
+                                {
+                                    "id" "elementid" "928ba1ab-52b0-4890-af27-3b101a015c55"
+                                    "name" "string" "quaternion log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "quaternion_array" [ "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "quaternion" "0 0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "f047a823-4e1b-4ab7-9cd0-5f8264da5fe2"
+                        "name" "string" "joint16_p"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "05ba2c14-67fb-4d32-8c92-d948904da9e5"
+                        "toAttribute" "string" "position"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeVector3Log"
+                        {
+                            "id" "elementid" "1b33f0a0-1472-4df6-9486-894890d5b21e"
+                            "name" "string" "vector3 log"
+                            "layers" "element_array"
+                            [
+                                "DmeVector3LogLayer"
+                                {
+                                    "id" "elementid" "4f2a2a53-9f4d-462a-87f4-0a2dac477cac"
+                                    "name" "string" "vector3 log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "vector3_array" [ "-0.47265625 -0.19628906 -0.6777344", "-0.48657227 -0.20288086 -0.6777344", "-0.52441406 -0.22070312 -0.6777344", "-0.5800781 -0.24682617 -0.6777344", "-0.6479492 -0.27856445 -0.6777344", "-0.72216797 -0.31323242 -0.6777344", "-0.79541016 -0.3479004 -0.6777344", "-0.86328125 -0.37963867 -0.6777344", "-0.9194336 -0.40600586 -0.6777344", "-0.95703125 -0.42358398 -0.6777344", "-0.9711914 -0.43017578 -0.6777344", "-0.96972656 -0.41552734 -0.6777344", "-0.96533203 -0.37646484 -0.6777344", "-0.95947266 -0.31884766 -0.6777344", "-0.95214844 -0.24853516 -0.6777344", "-0.94433594 -0.17248535 -0.6777344", "-0.93652344 -0.096191406 -0.6777344", "-0.9291992 -0.0259552 -0.6777344", "-0.92333984 0.031585693 -0.6777344", "-0.9194336 0.070739746 -0.6777344", "-0.91796875 0.08520508 -0.6777344", "-0.9038086 0.09173584 -0.6777344", "-0.86621094 0.109558105 -0.6777344", "-0.8100586 0.13586426 -0.6777344", "-0.7426758 0.16760254 -0.6777344", "-0.6689453 0.20227051 -0.6777344", "-0.59521484 0.23706055 -0.6777344", "-0.52783203 0.26879883 -0.6777344", "-0.47216797 0.29492188 -0.6777344", "-0.43432617 0.31274414 -0.6777344", "-0.42041016 0.31933594 -0.6777344", "-0.40820312 0.31054688 -0.6777344", "-0.375 0.2861328 -0.6777344", "-0.32641602 0.25048828 -0.6777344", "-0.26708984 0.20703125 -0.6777344", "-0.20239258 0.1595459 -0.6777344", "-0.13806152 0.11242676 -0.6777344", "-0.07879639 0.06896973 -0.6777344", "-0.029922485 0.03314209 -0.6777344", "0.0031013489 0.00894165 -0.6777344", "0.015304565 0 -0.6777344", "0.019973755 0 -0.6777344", "0.03250122 0 -0.6777344", "0.05102539 0 -0.6777344", "0.07354736 0 -0.6777344", "0.097961426 0 -0.6777344", "0.12243652 2.3841858E-07 -0.6777344", "0.14489746 2.3841858E-07 -0.6777344", "0.16345215 0 -0.6777344", "0.17602539 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 -2.3841858E-07 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 2.3841858E-07 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "vector3" "0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "a03070e0-0205-48ce-a3f8-332a05f485e1"
+                        "name" "string" "joint16_o"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "05ba2c14-67fb-4d32-8c92-d948904da9e5"
+                        "toAttribute" "string" "orientation"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeQuaternionLog"
+                        {
+                            "id" "elementid" "c3bdaee6-1f77-4502-b989-579f43380fa6"
+                            "name" "string" "quaternion log"
+                            "layers" "element_array"
+                            [
+                                "DmeQuaternionLogLayer"
+                                {
+                                    "id" "elementid" "b13821ea-0a0f-4d33-8144-f43c53487749"
+                                    "name" "string" "quaternion log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "quaternion_array" [ "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "quaternion" "0 0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "f4bc7392-a394-4406-b111-483d5f0931ab"
+                        "name" "string" "joint17_p"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "5833eaaf-0144-4856-8c4b-5d4f78bd35fa"
+                        "toAttribute" "string" "position"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeVector3Log"
+                        {
+                            "id" "elementid" "9bf68659-7df5-43df-8d24-119e41ca4f92"
+                            "name" "string" "vector3 log"
+                            "layers" "element_array"
+                            [
+                                "DmeVector3LogLayer"
+                                {
+                                    "id" "elementid" "2d205114-f89c-49f6-a842-907221a97a03"
+                                    "name" "string" "vector3 log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "vector3_array" [ "-0.036071777 -0.51416016 -0.6777344", "-0.04827881 -0.5053711 -0.6777344", "-0.081604004 -0.48120117 -0.6777344", "-0.1303711 -0.44580078 -0.6777344", "-0.18969727 -0.40234375 -0.6777344", "-0.25439453 -0.3552246 -0.6777344", "-0.31884766 -0.3083496 -0.6777344", "-0.37817383 -0.26489258 -0.6777344", "-0.4272461 -0.22937012 -0.6777344", "-0.46044922 -0.2052002 -0.6777344", "-0.47265625 -0.19628906 -0.6777344", "-0.48657227 -0.20288086 -0.6777344", "-0.5239258 -0.22033691 -0.6777344", "-0.57958984 -0.24633789 -0.6777344", "-0.64697266 -0.27783203 -0.6777344", "-0.72021484 -0.31201172 -0.6777344", "-0.79345703 -0.3461914 -0.6777344", "-0.86083984 -0.3779297 -0.6777344", "-0.9165039 -0.40356445 -0.6777344", "-0.95410156 -0.42114258 -0.6777344", "-0.96777344 -0.42773438 -0.6777344", "-0.9663086 -0.41333008 -0.6777344", "-0.9628906 -0.37426758 -0.6777344", "-0.95703125 -0.31640625 -0.6777344", "-0.9506836 -0.24682617 -0.6777344", "-0.9433594 -0.17077637 -0.6777344", "-0.93603516 -0.09448242 -0.6777344", "-0.9291992 -0.024795532 -0.6777344", "-0.9238281 0.03274536 -0.6777344", "-0.92041016 0.07183838 -0.6777344", "-0.9189453 0.08618164 -0.6777344", "-0.90478516 0.09277344 -0.6777344", "-0.8671875 0.1105957 -0.6777344", "-0.8120117 0.13659668 -0.6777344", "-0.7451172 0.16833496 -0.6777344", "-0.671875 0.20300293 -0.6777344", "-0.5986328 0.23754883 -0.6777344", "-0.5317383 0.2692871 -0.6777344", "-0.47631836 0.29541016 -0.6777344", "-0.43896484 0.31323242 -0.6777344", "-0.42504883 0.31958008 -0.6777344", "-0.41259766 0.31054688 -0.6777344", "-0.37939453 0.28637695 -0.6777344", "-0.33007812 0.25048828 -0.6777344", "-0.27001953 0.20703125 -0.6777344", "-0.20532227 0.15979004 -0.6777344", "-0.14025879 0.11254883 -0.6777344", "-0.080322266 0.06890869 -0.6777344", "-0.031280518 0.033233643 -0.6777344", "0.0021209717 0.00894928 -0.6777344", "0.014442444 0 -0.6777344", "0.019073486 0 -0.6777344", "0.031707764 0 -0.6777344", "0.05038452 2.3841858E-07 -0.6777344", "0.07293701 2.3841858E-07 -0.6777344", "0.09753418 0 -0.6777344", "0.12219238 0 -0.6777344", "0.14465332 0 -0.6777344", "0.16333008 0 -0.6777344", "0.17602539 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "vector3" "0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "e8ba3c22-ad42-415b-944a-cc8a47213545"
+                        "name" "string" "joint17_o"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "5833eaaf-0144-4856-8c4b-5d4f78bd35fa"
+                        "toAttribute" "string" "orientation"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeQuaternionLog"
+                        {
+                            "id" "elementid" "5e52aa8e-f052-4c73-b4ae-9685d9a45762"
+                            "name" "string" "quaternion log"
+                            "layers" "element_array"
+                            [
+                                "DmeQuaternionLogLayer"
+                                {
+                                    "id" "elementid" "8987784b-5f0a-45fe-9717-3258687ad14c"
+                                    "name" "string" "quaternion log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "quaternion_array" [ "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "quaternion" "0 0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "1b7dc966-beb9-4902-82cf-fa064d9be81e"
+                        "name" "string" "joint11_p"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "a4112d75-221c-4091-813f-670974400388"
+                        "toAttribute" "string" "position"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeVector3Log"
+                        {
+                            "id" "elementid" "ab6a05fb-5878-4f4f-9a4b-a6dfb6074248"
+                            "name" "string" "vector3 log"
+                            "layers" "element_array"
+                            [
+                                "DmeVector3LogLayer"
+                                {
+                                    "id" "elementid" "4745ad83-bae1-47d7-a78f-9f09591dcb15"
+                                    "name" "string" "vector3 log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "vector3_array" [ "-0.08795166 -1.0273438 -0.6777344", "-0.08648682 -1.0126953 -0.6777344", "-0.0826416 -0.9741211 -0.6777344", "-0.07696533 -0.9169922 -0.6777344", "-0.070007324 -0.84716797 -0.6777344", "-0.0625 -0.7709961 -0.6777344", "-0.054992676 -0.6953125 -0.6777344", "-0.048065186 -0.6254883 -0.6777344", "-0.0423584 -0.5683594 -0.6777344", "-0.038513184 -0.5292969 -0.6777344", "-0.037078857 -0.5151367 -0.6777344", "-0.04937744 -0.5058594 -0.6777344", "-0.08239746 -0.48168945 -0.6777344", "-0.13122559 -0.44604492 -0.6777344", "-0.19067383 -0.40234375 -0.6777344", "-0.2548828 -0.35498047 -0.6777344", "-0.31933594 -0.3076172 -0.6777344", "-0.37890625 -0.26416016 -0.6777344", "-0.42749023 -0.22839355 -0.6777344", "-0.46069336 -0.20410156 -0.6777344", "-0.4729004 -0.19519043 -0.6777344", "-0.48657227 -0.20178223 -0.6777344", "-0.5239258 -0.21960449 -0.6777344", "-0.57958984 -0.24609375 -0.6777344", "-0.64697266 -0.27783203 -0.6777344", "-0.71972656 -0.31274414 -0.6777344", "-0.79345703 -0.34765625 -0.6777344", "-0.86035156 -0.37963867 -0.6777344", "-0.91552734 -0.40600586 -0.6777344", "-0.9536133 -0.42382812 -0.6777344", "-0.96728516 -0.43041992 -0.6777344", "-0.9658203 -0.41601562 -0.6777344", "-0.96240234 -0.37670898 -0.6777344", "-0.95751953 -0.3190918 -0.6777344", "-0.9511719 -0.24902344 -0.6777344", "-0.94433594 -0.17236328 -0.6777344", "-0.9375 -0.09637451 -0.6777344", "-0.9316406 -0.026245117 -0.6777344", "-0.92626953 0.03161621 -0.6777344", "-0.92285156 0.07067871 -0.6777344", "-0.9213867 0.08514404 -0.6777344", "-0.90722656 0.09173584 -0.6777344", "-0.8691406 0.109558105 -0.6777344", "-0.8129883 0.13586426 -0.6777344", "-0.7446289 0.16796875 -0.6777344", "-0.67041016 0.20263672 -0.6777344", "-0.5961914 0.23754883 -0.6777344", "-0.52783203 0.26953125 -0.6777344", "-0.47192383 0.2956543 -0.6777344", "-0.4338379 0.3137207 -0.6777344", "-0.41967773 0.3203125 -0.6777344", "-0.4074707 0.3112793 -0.6777344", "-0.37451172 0.28686523 -0.6777344", "-0.32543945 0.25097656 -0.6777344", "-0.26635742 0.20751953 -0.6777344", "-0.20202637 0.16015625 -0.6777344", "-0.1373291 0.11260986 -0.6777344", "-0.07824707 0.06915283 -0.6777344", "-0.02947998 0.033294678 -0.6777344", "0.0036716461 0.00894165 -0.6777344", "0.015823364 0 -0.6777344", "0.020446777 0 -0.6777344", "0.03302002 0 -0.6777344", "0.05142212 0 -0.6777344", "0.07385254 0 -0.6777344", "0.09832764 0 -0.6777344", "0.12261963 0 -0.6777344", "0.14501953 0 -0.6777344", "0.16357422 0 -0.6777344", "0.17602539 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "vector3" "0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "91dfea04-c902-4343-9d40-9252d10a0d2d"
+                        "name" "string" "joint11_o"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "a4112d75-221c-4091-813f-670974400388"
+                        "toAttribute" "string" "orientation"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeQuaternionLog"
+                        {
+                            "id" "elementid" "151c704d-bbc8-4218-bf8b-21e88f632ef0"
+                            "name" "string" "quaternion log"
+                            "layers" "element_array"
+                            [
+                                "DmeQuaternionLogLayer"
+                                {
+                                    "id" "elementid" "f60e216e-de68-4b94-b882-acd4c3b2ebac"
+                                    "name" "string" "quaternion log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "quaternion_array" [ "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "quaternion" "0 0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "de551e13-11d0-4c50-8566-7222e63df6f7"
+                        "name" "string" "joint12_p"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "87a53a37-636c-4c05-bcf8-b131716b12ee"
+                        "toAttribute" "string" "position"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeVector3Log"
+                        {
+                            "id" "elementid" "7c46f931-3b64-4b70-93a8-9bf9258855d7"
+                            "name" "string" "vector3 log"
+                            "layers" "element_array"
+                            [
+                                "DmeVector3LogLayer"
+                                {
+                                    "id" "elementid" "4d5e417d-e9ef-42c1-aaf5-c54be256a20c"
+                                    "name" "string" "vector3 log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "vector3_array" [ "-0.5131836 -0.7109375 -0.6777344", "-0.50097656 -0.71972656 -0.6777344", "-0.46875 -0.74365234 -0.6777344", "-0.42138672 -0.7788086 -0.6777344", "-0.36376953 -0.82128906 -0.6777344", "-0.30078125 -0.86816406 -0.6777344", "-0.23828125 -0.9145508 -0.6777344", "-0.18054199 -0.95703125 -0.6777344", "-0.13293457 -0.9921875 -0.6777344", "-0.10083008 -1.015625 -0.6777344", "-0.08898926 -1.0244141 -0.6777344", "-0.08758545 -1.0097656 -0.6777344", "-0.083862305 -0.9716797 -0.6777344", "-0.078308105 -0.9140625 -0.6777344", "-0.07159424 -0.8442383 -0.6777344", "-0.064331055 -0.76904297 -0.6777344", "-0.057037354 -0.6928711 -0.6777344", "-0.050323486 -0.6230469 -0.6777344", "-0.044830322 -0.56591797 -0.6777344", "-0.04107666 -0.52685547 -0.6777344", "-0.039733887 -0.5126953 -0.6777344", "-0.051849365 -0.50390625 -0.6777344", "-0.08477783 -0.47998047 -0.6777344", "-0.13354492 -0.44458008 -0.6777344", "-0.19226074 -0.4020996 -0.6777344", "-0.25634766 -0.35546875 -0.6777344", "-0.32080078 -0.30859375 -0.6777344", "-0.37963867 -0.26586914 -0.6777344", "-0.42822266 -0.23071289 -0.6777344", "-0.46118164 -0.20678711 -0.6777344", "-0.47338867 -0.19799805 -0.6777344", "-0.48706055 -0.2043457 -0.6777344", "-0.52490234 -0.22167969 -0.6777344", "-0.5800781 -0.24707031 -0.6777344", "-0.64746094 -0.27807617 -0.6777344", "-0.7207031 -0.31176758 -0.6777344", "-0.7939453 -0.34521484 -0.6777344", "-0.8613281 -0.3762207 -0.6777344", "-0.9169922 -0.40185547 -0.6777344", "-0.95410156 -0.4189453 -0.6777344", "-0.9682617 -0.42529297 -0.6777344", "-0.9667969 -0.41088867 -0.6777344", "-0.9628906 -0.3720703 -0.6777344", "-0.95703125 -0.3149414 -0.6777344", "-0.9501953 -0.24511719 -0.6777344", "-0.9428711 -0.16967773 -0.6777344", "-0.9350586 -0.094055176 -0.6777344", "-0.92822266 -0.024353027 -0.6777344", "-0.92285156 0.032714844 -0.6777344", "-0.9189453 0.07159424 -0.6777344", "-0.91748047 0.0859375 -0.6777344", "-0.9033203 0.09234619 -0.6777344", "-0.86572266 0.10992432 -0.6777344", "-0.8100586 0.13598633 -0.6777344", "-0.7426758 0.1673584 -0.6777344", "-0.6694336 0.20153809 -0.6777344", "-0.5957031 0.23583984 -0.6777344", "-0.5283203 0.26708984 -0.6777344", "-0.4729004 0.2932129 -0.6777344", "-0.43530273 0.31079102 -0.6777344", "-0.42138672 0.31713867 -0.6777344", "-0.4091797 0.3083496 -0.6777344", "-0.37573242 0.2841797 -0.6777344", "-0.32666016 0.24865723 -0.6777344", "-0.26708984 0.2055664 -0.6777344", "-0.20214844 0.15844727 -0.6777344", "-0.13745117 0.1116333 -0.6777344", "-0.077941895 0.068481445 -0.6777344", "-0.028762817 0.03289795 -0.6777344", "0.0044288635 0.008880615 -0.6777344", "0.016693115 0 -0.6777344", "0.021316528 2.3841858E-07 -0.6777344", "0.03375244 0 -0.6777344", "0.052093506 0 -0.6777344", "0.07446289 0 -0.6777344", "0.09863281 0 -0.6777344", "0.122924805 0 -0.6777344", "0.14526367 0 -0.6777344", "0.16357422 0 -0.6777344", "0.17602539 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "vector3" "0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "895c8c35-8a8c-4c83-a2e5-05eeee423f1c"
+                        "name" "string" "joint12_o"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "87a53a37-636c-4c05-bcf8-b131716b12ee"
+                        "toAttribute" "string" "orientation"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeQuaternionLog"
+                        {
+                            "id" "elementid" "37dd2eb0-b637-441f-a80f-c7a114da97f2"
+                            "name" "string" "quaternion log"
+                            "layers" "element_array"
+                            [
+                                "DmeQuaternionLogLayer"
+                                {
+                                    "id" "elementid" "eb55700a-b8e1-4adf-903d-0dce42ec6b6f"
+                                    "name" "string" "quaternion log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "quaternion_array" [ "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "quaternion" "0 0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "425bad39-14f5-4bcf-8bcb-ec4792752972"
+                        "name" "string" "joint13_p"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "f6900373-c777-45b2-bd8b-01083842c318"
+                        "toAttribute" "string" "position"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeVector3Log"
+                        {
+                            "id" "elementid" "a15b194d-dbed-4c13-aec1-3aec626ba802"
+                            "name" "string" "vector3 log"
+                            "layers" "element_array"
+                            [
+                                "DmeVector3LogLayer"
+                                {
+                                    "id" "elementid" "73aae0a8-e7ed-41ea-8efb-21348445e4a9"
+                                    "name" "string" "vector3 log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "vector3_array" [ "-1.0185547 -0.94140625 -0.6777344", "-1.0048828 -0.9345703 -0.6777344", "-0.9663086 -0.9169922 -0.6777344", "-0.91015625 -0.8911133 -0.6777344", "-0.8413086 -0.859375 -0.6777344", "-0.7661133 -0.82470703 -0.6777344", "-0.69140625 -0.79003906 -0.6777344", "-0.6225586 -0.7583008 -0.6777344", "-0.56591797 -0.7324219 -0.6777344", "-0.52783203 -0.71435547 -0.6777344", "-0.5136719 -0.7080078 -0.6777344", "-0.50146484 -0.7167969 -0.6777344", "-0.46972656 -0.74072266 -0.6777344", "-0.42236328 -0.7763672 -0.6777344", "-0.3647461 -0.81933594 -0.6777344", "-0.30249023 -0.86572266 -0.6777344", "-0.2401123 -0.91259766 -0.6777344", "-0.18249512 -0.9555664 -0.6777344", "-0.13537598 -0.99072266 -0.6777344", "-0.10333252 -1.0146484 -0.6777344", "-0.0914917 -1.0234375 -0.6777344", "-0.08996582 -1.0087891 -0.6777344", "-0.085876465 -0.9707031 -0.6777344", "-0.07977295 -0.91308594 -0.6777344", "-0.07244873 -0.8442383 -0.6777344", "-0.064453125 -0.76904297 -0.6777344", "-0.056427002 -0.6933594 -0.6777344", "-0.049102783 -0.62402344 -0.6777344", "-0.043029785 -0.5673828 -0.6777344", "-0.038909912 -0.5283203 -0.6777344", "-0.03741455 -0.51416016 -0.6777344", "-0.049560547 -0.5053711 -0.6777344", "-0.08270264 -0.48120117 -0.6777344", "-0.13110352 -0.44580078 -0.6777344", "-0.19018555 -0.4025879 -0.6777344", "-0.25463867 -0.35546875 -0.6777344", "-0.31860352 -0.30859375 -0.6777344", "-0.37768555 -0.26538086 -0.6777344", "-0.42651367 -0.2298584 -0.6777344", "-0.45922852 -0.20581055 -0.6777344", "-0.47143555 -0.19689941 -0.6777344", "-0.4855957 -0.20336914 -0.6777344", "-0.5234375 -0.2208252 -0.6777344", "-0.57958984 -0.2467041 -0.6777344", "-0.6479492 -0.27807617 -0.6777344", "-0.72216797 -0.31225586 -0.6777344", "-0.7963867 -0.34643555 -0.6777344", "-0.8647461 -0.3779297 -0.6777344", "-0.92089844 -0.4038086 -0.6777344", "-0.9589844 -0.42114258 -0.6777344", "-0.97314453 -0.42773438 -0.6777344", "-0.9716797 -0.41333008 -0.6777344", "-0.96728516 -0.37426758 -0.6777344", "-0.9614258 -0.3166504 -0.6777344", "-0.95410156 -0.24707031 -0.6777344", "-0.94628906 -0.17114258 -0.6777344", "-0.9379883 -0.09503174 -0.6777344", "-0.93115234 -0.025466919 -0.6777344", "-0.9248047 0.031982422 -0.6777344", "-0.92089844 0.07104492 -0.6777344", "-0.9194336 0.08532715 -0.6777344", "-0.90527344 0.091918945 -0.6777344", "-0.8676758 0.109802246 -0.6777344", "-0.8120117 0.13598633 -0.6777344", "-0.7441406 0.16784668 -0.6777344", "-0.67041016 0.20263672 -0.6777344", "-0.59716797 0.23718262 -0.6777344", "-0.5292969 0.26904297 -0.6777344", "-0.4736328 0.29541016 -0.6777344", "-0.43603516 0.31298828 -0.6777344", "-0.42211914 0.31958008 -0.6777344", "-0.40966797 0.31054688 -0.6777344", "-0.37646484 0.28637695 -0.6777344", "-0.32739258 0.25048828 -0.6777344", "-0.26733398 0.20703125 -0.6777344", "-0.20275879 0.15979004 -0.6777344", "-0.13769531 0.11248779 -0.6777344", "-0.077941895 0.06890869 -0.6777344", "-0.028945923 0.033233643 -0.6777344", "0.00440979 0.00894928 -0.6777344", "0.016708374 0 -0.6777344", "0.02128601 0 -0.6777344", "0.03375244 0 -0.6777344", "0.05218506 0 -0.6777344", "0.074401855 0 -0.6777344", "0.09863281 0 -0.6777344", "0.12298584 0 -0.6777344", "0.1451416 0 -0.6777344", "0.16357422 0 -0.6777344", "0.17602539 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344", "0.18066406 0 -0.6777344" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "vector3" "0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "29680195-74a9-49de-bede-9e70eaa4256f"
+                        "name" "string" "joint13_o"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "f6900373-c777-45b2-bd8b-01083842c318"
+                        "toAttribute" "string" "orientation"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeQuaternionLog"
+                        {
+                            "id" "elementid" "b5f70446-b5f9-48cf-b01d-055f60b5ffbf"
+                            "name" "string" "quaternion log"
+                            "layers" "element_array"
+                            [
+                                "DmeQuaternionLogLayer"
+                                {
+                                    "id" "elementid" "1d192117-0613-4647-b237-ec89adde1cee"
+                                    "name" "string" "quaternion log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "quaternion_array" [ "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "quaternion" "0 0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "69e4351e-2ec2-40bc-a759-b417bcae86e1"
+                        "name" "string" "joint14_p"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "70279c9f-09a6-4767-a32b-5579d2160595"
+                        "toAttribute" "string" "position"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeVector3Log"
+                        {
+                            "id" "elementid" "3670ca28-29f4-4c98-804c-e6a67ee626d9"
+                            "name" "string" "vector3 log"
+                            "layers" "element_array"
+                            [
+                                "DmeVector3LogLayer"
+                                {
+                                    "id" "elementid" "656ad4f8-1808-41f8-9e78-c40f4a58e8aa"
+                                    "name" "string" "vector3 log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "vector3_array" [ "-0.5805664 -1.2216797 -0.6777344", "-0.5932617 -1.2138672 -0.6777344", "-0.62646484 -1.1923828 -0.6777344", "-0.67578125 -1.1611328 -0.6777344", "-0.73535156 -1.1230469 -0.6777344", "-0.80078125 -1.0810547 -0.6777344", "-0.8652344 -1.0400391 -0.6777344", "-0.92529297 -1.0019531 -0.6777344", "-0.9746094 -0.9707031 -0.6777344", "-1.0078125 -0.94921875 -0.6777344", "-1.0195312 -0.94140625 -0.6777344", "-1.0058594 -0.9350586 -0.6777344", "-0.96728516 -0.9169922 -0.6777344", "-0.91064453 -0.8911133 -0.6777344", "-0.8413086 -0.8588867 -0.6777344", "-0.7661133 -0.82470703 -0.6777344", "-0.69140625 -0.79003906 -0.6777344", "-0.6220703 -0.7583008 -0.6777344", "-0.5654297 -0.7319336 -0.6777344", "-0.52685547 -0.71435547 -0.6777344", "-0.5126953 -0.70751953 -0.6777344", "-0.5004883 -0.7167969 -0.6777344", "-0.46850586 -0.74072266 -0.6777344", "-0.4206543 -0.7763672 -0.6777344", "-0.3630371 -0.81933594 -0.6777344", "-0.30029297 -0.86621094 -0.6777344", "-0.23718262 -0.9135742 -0.6777344", "-0.17956543 -0.95654297 -0.6777344", "-0.13195801 -0.9921875 -0.6777344", "-0.09967041 -1.015625 -0.6777344", "-0.08782959 -1.0253906 -0.6777344", "-0.08642578 -1.0107422 -0.6777344", "-0.08251953 -0.9716797 -0.6777344", "-0.0769043 -0.9145508 -0.6777344", "-0.070007324 -0.84472656 -0.6777344", "-0.062469482 -0.76904297 -0.6777344", "-0.054992676 -0.6933594 -0.6777344", "-0.048095703 -0.62402344 -0.6777344", "-0.042388916 -0.56640625 -0.6777344", "-0.0385437 -0.52734375 -0.6777344", "-0.037139893 -0.5131836 -0.6777344", "-0.049438477 -0.50439453 -0.6777344", "-0.082458496 -0.4802246 -0.6777344", "-0.13122559 -0.44458008 -0.6777344", "-0.19067383 -0.40112305 -0.6777344", "-0.2548828 -0.3540039 -0.6777344", "-0.31958008 -0.30688477 -0.6777344", "-0.37890625 -0.26342773 -0.6777344", "-0.42749023 -0.22790527 -0.6777344", "-0.46069336 -0.20373535 -0.6777344", "-0.4729004 -0.19482422 -0.6777344", "-0.4868164 -0.20129395 -0.6777344", "-0.52441406 -0.21899414 -0.6777344", "-0.5805664 -0.24523926 -0.6777344", "-0.6479492 -0.27685547 -0.6777344", "-0.7216797 -0.3112793 -0.6777344", "-0.79541016 -0.34594727 -0.6777344", "-0.86328125 -0.37768555 -0.6777344", "-0.9189453 -0.4038086 -0.6777344", "-0.95654297 -0.42138672 -0.6777344", "-0.9707031 -0.42797852 -0.6777344", "-0.9692383 -0.41357422 -0.6777344", "-0.9658203 -0.37426758 -0.6777344", "-0.95996094 -0.3166504 -0.6777344", "-0.9536133 -0.2467041 -0.6777344", "-0.94628906 -0.17016602 -0.6777344", "-0.93896484 -0.09423828 -0.6777344", "-0.9326172 -0.02420044 -0.6777344", "-0.9272461 0.033599854 -0.6777344", "-0.92333984 0.072631836 -0.6777344", "-0.921875 0.08703613 -0.6777344", "-0.90771484 0.09362793 -0.6777344", "-0.8701172 0.111206055 -0.6777344", "-0.81396484 0.13720703 -0.6777344", "-0.74560547 0.16894531 -0.6777344", "-0.6713867 0.203125 -0.6777344", "-0.59716797 0.23754883 -0.6777344", "-0.5288086 0.26904297 -0.6777344", "-0.47314453 0.29516602 -0.6777344", "-0.4350586 0.31274414 -0.6777344", "-0.42089844 0.31933594 -0.6777344", "-0.4086914 0.31030273 -0.6777344", "-0.37548828 0.2861328 -0.6777344", "-0.32617188 0.25024414 -0.6777344", "-0.2668457 0.20690918 -0.6777344", "-0.20214844 0.15966797 -0.6777344", "-0.13708496 0.11224365 -0.6777344", "-0.077819824 0.06896973 -0.6777344", "-0.028808594 0.033203125 -0.6777344", "0.0044784546 0.008911133 -0.6777344", "0.016693115 0 -0.6777344", "0.02128601 0 -0.6777344", "0.03378296 0 -0.6777344", "0.052093506 0 -0.6777344", "0.074401855 0 -0.6777344", "0.09875488 0 -0.6777344", "0.122924805 0 -0.6777344", "0.1451416 0 -0.6777344", "0.16357422 2.3841858E-07 -0.6777344", "0.17602539 0 -0.6777344", "0.18066406 0 -0.6777344" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "vector3" "0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "478e7857-d541-4970-adf0-5c295be108c7"
+                        "name" "string" "joint14_o"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "70279c9f-09a6-4767-a32b-5579d2160595"
+                        "toAttribute" "string" "orientation"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeQuaternionLog"
+                        {
+                            "id" "elementid" "04223201-2233-43a6-b2b9-01d7258dcca4"
+                            "name" "string" "quaternion log"
+                            "layers" "element_array"
+                            [
+                                "DmeQuaternionLogLayer"
+                                {
+                                    "id" "elementid" "bb16d3a5-aa04-42d4-9c1b-f22266f75e28"
+                                    "name" "string" "quaternion log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "quaternion_array" [ "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "quaternion" "0 0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "c2a39a29-f40a-46b1-a853-931cbc1c3496"
+                        "name" "string" "joint22_p"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "5e53cad7-4bf9-4472-a166-e8db8da133fb"
+                        "toAttribute" "string" "position"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeVector3Log"
+                        {
+                            "id" "elementid" "d74c4bb6-cd31-4d7f-b0c4-b4d2e977d701"
+                            "name" "string" "vector3 log"
+                            "layers" "element_array"
+                            [
+                                "DmeVector3LogLayer"
+                                {
+                                    "id" "elementid" "ab94d2b2-7917-4aab-9509-6fdae4c5a799"
+                                    "name" "string" "vector3 log"
+                                    "times" "time_array" [ "-0.1", "-0.05", "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "vector3_array" [ "-1.3496094 2.4355469 1.9473656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656", "-1.3496094 2.4355469 1.9472656" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "vector3" "0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "4d411019-afbb-4dc7-9dac-717f0f620575"
+                        "name" "string" "joint22_o"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "5e53cad7-4bf9-4472-a166-e8db8da133fb"
+                        "toAttribute" "string" "orientation"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeQuaternionLog"
+                        {
+                            "id" "elementid" "ecb4ae93-54fe-436f-8c06-2856898f42a6"
+                            "name" "string" "quaternion log"
+                            "layers" "element_array"
+                            [
+                                "DmeQuaternionLogLayer"
+                                {
+                                    "id" "elementid" "8e5b627c-92df-4180-ae6b-09e11b878471"
+                                    "name" "string" "quaternion log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "quaternion_array" [ "0 0 0 -1", "0 0 -0.021147603 -0.99977636", "0 0 -0.04238152 -0.9991015", "0 0 -0.063442804 -0.9979855", "0 0 -0.08454725 -0.9964194", "0 0 -0.10569485 -0.9943986", "0 0 -0.12666982 -0.9919449", "0 0 -0.14764479 -0.98904043", "0 0 -0.16861977 -0.9856812", "0 0 -0.18937893 -0.9819041", "0 0 -0.21009496 -0.977681", "0 0 -0.23081097 -0.9729986", "0 0 -0.2513112 -0.96790636", "0 0 -0.27172512 -0.9623749", "0 0 -0.29209587 -0.95638907", "0 0 -0.31225082 -0.9499997", "0 0 -0.3322763 -0.9431821", "0 0 -0.35221547 -0.9359189", "0 0 -0.3718957 -0.9282745", "0 0 -0.39144644 -0.9202009", "0 0 -0.41091087 -0.9116755", "0 0 -0.43007317 -0.90279406", "0 0 -0.44906285 -0.8935002", "0 0 -0.46796623 -0.8837463", "0 0 -0.48648116 -0.8736911", "0 0 -0.50486666 -0.8631974", "0 0 -0.52307945 -0.8522839", "0 0 -0.540947 -0.8410567", "0 0 -0.55864197 -0.8294089", "0 0 -0.5761211 -0.81736434", "0 0 -0.593255 -0.8050146", "0 0 -0.61017305 -0.7922682", "0 0 -0.6268322 -0.7791543", "0 0 -0.64314604 -0.76574355", "0 0 -0.65920097 -0.75196683", "0 0 -0.6750401 -0.737781", "0 0 -0.6904476 -0.72338235", "0 0 -0.7055962 -0.7086141", "0 0 -0.72069436 -0.6932529", "0 0 -0.73516464 -0.6778886", "0 0 -0.74934584 -0.6621789", "0 0 -0.76323247 -0.646124", "0 0 -0.77667916 -0.62989646", "0 0 -0.7898317 -0.6133236", "0 0 -0.80268323 -0.59640557", "0 0 -0.8151039 -0.5793148", "0 0 -0.8271902 -0.561922", "0 0 -0.83891 -0.5442702", "0 0 -0.8502087 -0.5264458", "0 0 -0.8611687 -0.5083193", "0 0 -0.8717596 -0.48993385", "0 0 -0.88190943 -0.4714189", "0 0 -0.8916908 -0.452645", "0 0 -0.9010996 -0.43361217", "0 0 -0.91005254 -0.414493", "0 0 -0.91863173 -0.3951149", "0 0 -0.9268139 -0.375521", "0 0 -0.93453014 -0.35588393", "0 0 -0.9418509 -0.33603108", "0 0 -0.9487717 -0.31596243", "0 0 -0.9552342 -0.29585063", "0 0 -0.9612821 -0.27556622", "0 0 -0.96691227 -0.25510913", "0 0 -0.97207946 -0.23465207", "0 0 -0.97682875 -0.21402237", "0 0 -0.98115546 -0.19322003", "0 0 -0.9850164 -0.17246085", "0 0 -0.9884462 -0.1515722", "0 0 -0.9914412 -0.13055408", "0 0 -0.9939781 -0.10957911", "0 0 -0.9960746 -0.08851782", "0 0 -0.99772805 -0.06737022", "0 0 -0.99892914 -0.046265773", "0 0 -0.9996845 -0.025118172", "0 0 -0.99999243 -0.0038842536", "0 0 -0.9998525 0.017177032", "0 0 -0.9992653 0.038324635", "0 0 -0.9982274 0.059515394", "0 0 -0.9967484 0.08057668", "0 0 -0.9948171 0.10168113", "0 0 -0.99243325 0.12278557", "0 0 -0.98962504 0.14367422", "0 0 -0.9863594 0.16460603", "0 0 -0.9826453 0.18549468", "0 0 -0.97850764 0.2062107", "0 0 -0.9739219 0.22688356", "0 0 -0.96888447 0.24751326", "0 0 -0.96345115 0.26788402", "0 0 -0.95755374 0.28825477", "0 0 -0.9512256 0.30849606", "0 0 -0.9444965 0.32852152", "0 0 -0.9373394 0.34841755", "0 0 -0.92971873 0.3682704", "0 0 -0.9217528 0.38777798", "0 0 -0.9133394 0.40719923", "0 0 -0.90447146 0.4265342", "0 0 -0.89527005 0.4455239", "0 0 -0.8856339 0.46438408", "0 0 -0.87558085 0.48307166", "0 0 -0.8651825 0.50145715", "0 0 -0.85439336 0.5196268" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "quaternion" "0 0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "675826cd-3f59-48de-a1a4-4f62529d8bc0"
+                        "name" "string" "joint10_p"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "1a9baf0c-5410-4fd0-b968-fe6c92ad02b3"
+                        "toAttribute" "string" "position"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeVector3Log"
+                        {
+                            "id" "elementid" "b3808b05-34ee-45a4-ba4f-9e57337494ad"
+                            "name" "string" "vector3 log"
+                            "layers" "element_array"
+                            [
+                                "DmeVector3LogLayer"
+                                {
+                                    "id" "elementid" "0e6ab765-6d42-4cca-a12f-a87c492885e2"
+                                    "name" "string" "vector3 log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "vector3_array" [ "-0.31298828 -1.2412109 -0.6777344", "-0.35546875 -1.2265625 -0.6777344", "-0.47094727 -1.1855469 -0.6777344", "-0.6401367 -1.1259766 -0.6777344", "-0.8457031 -1.0537109 -0.6777344", "-1.0703125 -0.9746094 -0.6777344", "-1.2939453 -0.8955078 -0.6777344", "-1.5 -0.8227539 -0.6777344", "-1.6699219 -0.7626953 -0.6777344", "-1.7841797 -0.72265625 -0.6777344", "-1.8271484 -0.70751953 -0.6777344", "-1.8076172 -0.70996094 -0.6777344", "-1.7568359 -0.7167969 -0.6777344", "-1.6806641 -0.7270508 -0.6777344", "-1.5878906 -0.7397461 -0.6777344", "-1.4882812 -0.75341797 -0.6777344", "-1.3876953 -0.76708984 -0.6777344", "-1.2958984 -0.7792969 -0.6777344", "-1.2197266 -0.7895508 -0.6777344", "-1.1689453 -0.7963867 -0.6777344", "-1.1494141 -0.7993164 -0.6777344", "-1.1357422 -0.80126953 -0.6777344", "-1.0986328 -0.80810547 -0.6777344", "-1.0429688 -0.8173828 -0.6777344", "-0.9760742 -0.8286133 -0.6777344", "-0.90283203 -0.8413086 -0.6777344", "-0.82958984 -0.8535156 -0.6777344", "-0.7626953 -0.8652344 -0.6777344", "-0.70703125 -0.8745117 -0.6777344", "-0.6694336 -0.8808594 -0.6777344", "-0.6557617 -0.8833008 -0.6777344", "-0.64208984 -0.8852539 -0.6777344", "-0.6040039 -0.8901367 -0.6777344", "-0.54833984 -0.89746094 -0.6777344", "-0.4807129 -0.90625 -0.6777344", "-0.40673828 -0.9160156 -0.6777344", "-0.3330078 -0.92529297 -0.6777344", "-0.26538086 -0.93408203 -0.6777344", "-0.20947266 -0.94140625 -0.6777344", "-0.17175293 -0.94628906 -0.6777344", "-0.15771484 -0.9482422 -0.6777344", "-0.16320801 -0.9350586 -0.6777344", "-0.17785645 -0.89990234 -0.6777344", "-0.19958496 -0.84814453 -0.6777344", "-0.22607422 -0.78515625 -0.6777344", "-0.25463867 -0.71728516 -0.6777344", "-0.28320312 -0.6484375 -0.6777344", "-0.3095703 -0.5854492 -0.6777344", "-0.33129883 -0.5341797 -0.6777344", "-0.34594727 -0.49902344 -0.6777344", "-0.35131836 -0.48608398 -0.6777344", "-0.36499023 -0.48388672 -0.6777344", "-0.40185547 -0.47875977 -0.6777344", "-0.45629883 -0.47070312 -0.6777344", "-0.52197266 -0.46118164 -0.6777344", "-0.59375 -0.4506836 -0.6777344", "-0.6660156 -0.44018555 -0.6777344", "-0.7314453 -0.43066406 -0.6777344", "-0.7861328 -0.42285156 -0.6777344", "-0.8227539 -0.41748047 -0.6777344", "-0.8364258 -0.41552734 -0.6777344", "-0.85058594 -0.4128418 -0.6777344", "-0.8886719 -0.40600586 -0.6777344", "-0.94433594 -0.39575195 -0.6777344", "-1.0117188 -0.38330078 -0.6777344", "-1.0859375 -0.3696289 -0.6777344", "-1.1591797 -0.35620117 -0.6777344", "-1.2275391 -0.34350586 -0.6777344", "-1.2832031 -0.33325195 -0.6777344", "-1.3212891 -0.32641602 -0.6777344", "-1.3349609 -0.32373047 -0.6777344", "-1.3261719 -0.31323242 -0.6777344", "-1.3037109 -0.28466797 -0.6777344", "-1.2705078 -0.24279785 -0.6777344", "-1.2304688 -0.19165039 -0.6777344", "-1.1865234 -0.13623047 -0.6777344", "-1.1425781 -0.08074951 -0.6777344", "-1.1025391 -0.02961731 -0.6777344", "-1.0693359 0.012260437 -0.6777344", "-1.046875 0.040771484 -0.6777344", "-1.0380859 0.05126953 -0.6777344", "-1.0244141 0.049835205 -0.6777344", "-0.9848633 0.045928955 -0.6777344", "-0.9272461 0.040161133 -0.6777344", "-0.8574219 0.033233643 -0.6777344", "-0.78125 0.025634766 -0.6777344", "-0.70458984 0.01802063 -0.6777344", "-0.6347656 0.011077881 -0.6777344", "-0.57714844 0.005332947 -0.6777344", "-0.53808594 0.0014314651 -0.6777344", "-0.5234375 0 -0.6777344", "-0.50878906 0 -0.6777344", "-0.46899414 0 -0.6777344", "-0.41064453 0 -0.6777344", "-0.33935547 0 -0.6777344", "-0.2614746 0 -0.6777344", "-0.18432617 0 -0.6777344", "-0.113098145 0 -0.6777344", "-0.054351807 0 -0.6777344", "-0.014663696 0 -0.6777344", "5.9604645E-08 0 -0.6777344" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "vector3" "0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "c848cf17-8c0e-4654-869c-b0b2218944f1"
+                        "name" "string" "joint10_o"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "1a9baf0c-5410-4fd0-b968-fe6c92ad02b3"
+                        "toAttribute" "string" "orientation"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeQuaternionLog"
+                        {
+                            "id" "elementid" "8ee997de-9dd9-4a5e-9565-42e646262992"
+                            "name" "string" "quaternion log"
+                            "layers" "element_array"
+                            [
+                                "DmeQuaternionLogLayer"
+                                {
+                                    "id" "elementid" "d27ad8c5-c847-471d-82a9-7e6a55cf2419"
+                                    "name" "string" "quaternion log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "quaternion_array" [ "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "quaternion" "0 0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "c840e783-5f3c-45f1-9e10-58b8f02b863b"
+                        "name" "string" "joint9_p"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "2134ffcf-37e8-48c1-945c-c2a28c5c1b10"
+                        "toAttribute" "string" "position"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeVector3Log"
+                        {
+                            "id" "elementid" "e8b53f12-a23d-43b6-8ff8-5f80e9d0a9ea"
+                            "name" "string" "vector3 log"
+                            "layers" "element_array"
+                            [
+                                "DmeVector3LogLayer"
+                                {
+                                    "id" "elementid" "888b7c6f-de32-4430-8d27-4c93bc23a46e"
+                                    "name" "string" "vector3 log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "vector3_array" [ "-0.31416678 -1.2426343 -0.67789435", "-0.34758353 -1.2405648 -0.6778946", "-0.43873954 -1.234921 -0.67789435", "-0.5719793 -1.2266736 -0.6778946", "-0.7343328 -1.2166181 -0.6778946", "-0.91133475 -1.205647 -0.67789435", "-1.0876043 -1.1947522 -0.6778946", "-1.250202 -1.1846814 -0.6778946", "-1.3835027 -1.1764112 -0.6778946", "-1.474323 -1.1707959 -0.6778946", "-1.5075262 -1.1687207 -0.67789435", "-1.5114324 -1.1562085 -0.6778946", "-1.521198 -1.1225171 -0.6778946", "-1.5348699 -1.0728345 -0.67789435", "-1.552448 -1.0121655 -0.67789483", "-1.5710027 -0.94673586 -0.6778946", "-1.5895574 -0.88106203 -0.6778946", "-1.6071355 -0.82051516 -0.6778946", "-1.6208074 -0.7709546 -0.67789435", "-1.630573 -0.7372632 -0.6778946", "-1.6344793 -0.7245679 -0.6778946", "-1.6208074 -0.7270093 -0.6778946", "-1.583698 -0.7323804 -0.67789435", "-1.5290105 -0.74116945 -0.6778941", "-1.4635808 -0.7509351 -0.6778946", "-1.3922918 -0.76216555 -0.6778941", "-1.3200262 -0.7731519 -0.6778946", "-1.2545965 -0.7834058 -0.6778946", "-1.2003973 -0.79170656 -0.6778941", "-1.1632879 -0.7973218 -0.67789435", "-1.1501043 -0.79951906 -0.6778946", "-1.1359441 -0.80196047 -0.6778946", "-1.0983465 -0.8083081 -0.6778946", "-1.0431707 -0.81758547 -0.67789435", "-0.9757879 -0.8290601 -0.67789435", "-0.9025457 -0.84151125 -0.6778941", "-0.8297918 -0.8539624 -0.6778946", "-0.7626531 -0.86543703 -0.6778946", "-0.7072332 -0.8749585 -0.67789435", "-0.6698797 -0.8813062 -0.67789435", "-0.65596366 -0.8837476 -0.6778946", "-0.64204764 -0.88545656 -0.67789435", "-0.60420585 -0.8903394 -0.6778946", "-0.5484197 -0.8976636 -0.6778946", "-0.48042655 -0.90645266 -0.6778946", "-0.40694022 -0.9162183 -0.6778946", "-0.333225 -0.92573977 -0.6778945", "-0.26530814 -0.9345288 -0.6778946", "-0.2096746 -0.94185305 -0.6778946", "-0.1718328 -0.94673586 -0.6778946", "-0.15791678 -0.94844484 -0.6778946", "-0.16328788 -0.93574953 -0.67789435", "-0.17805839 -0.9005933 -0.67789435", "-0.1997869 -0.8485913 -0.67789435", "-0.22603202 -0.7858472 -0.67789435", "-0.25468802 -0.71773195 -0.67789483", "-0.28342032 -0.6488843 -0.6778946", "-0.3096807 -0.5863843 -0.6778946", "-0.33136344 -0.5346265 -0.67789435", "-0.34608817 -0.49947023 -0.67789435", "-0.35148978 -0.48628664 -0.67789435", "-0.3650701 -0.48433352 -0.6778946", "-0.40211844 -0.47896242 -0.6778946", "-0.45625663 -0.47114992 -0.6778941", "-0.52229667 -0.4613843 -0.67789435", "-0.5941961 -0.4511304 -0.6778946", "-0.6657293 -0.44087648 -0.67789435", "-0.7318914 -0.43111086 -0.6778946", "-0.78633475 -0.42329836 -0.67789435", "-0.82295585 -0.41792727 -0.6778946", "-0.8366277 -0.41597414 -0.67789435", "-0.8502996 -0.41304445 -0.67789435", "-0.88838553 -0.40620852 -0.6778946", "-0.9440496 -0.3959546 -0.67789435", "-1.012409 -0.38374758 -0.6778946", "-1.0856512 -0.3700757 -0.6778946", "-1.1598699 -0.35640383 -0.6778946", "-1.227741 -0.34370852 -0.6778941", "-1.2834051 -0.3339429 -0.67789483", "-1.3210027 -0.32661867 -0.67789483", "-1.3346746 -0.32417727 -0.67789483", "-1.3268621 -0.31343508 -0.6778946", "-1.3044012 -0.28511477 -0.67789435", "-1.271198 -0.24312258 -0.67789435", "-1.2306707 -0.19185305 -0.67789435", "-1.1867254 -0.13716555 -0.6778946", "-1.1427801 -0.081501484 -0.6778941", "-1.102741 -0.030720234 -0.6778941", "-1.0695379 0.012248516 -0.6778946", "-1.047077 0.04056883 -0.67789435", "-1.0387762 0.050334454 -0.67789435", "-1.0241277 0.04935789 -0.6778946", "-0.9850652 0.04545164 -0.6778946", "-0.92744803 0.039592266 -0.67789435", "-0.85713553 0.03275633 -0.6778946", "-0.78096366 0.024943829 -0.6778946", "-0.7050359 0.017131329 -0.6778941", "-0.63496757 0.010295391 -0.67789435", "-0.57710624 0.004436016 -0.6778946", "-0.5381658 0.0005297661 -0.6778946", "-0.5237615 -0.00044679642 -0.67789435" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "vector3" "0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "e66918d4-ee82-4563-b344-eeb82e4cbaa3"
+                        "name" "string" "joint9_o"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "2134ffcf-37e8-48c1-945c-c2a28c5c1b10"
+                        "toAttribute" "string" "orientation"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeQuaternionLog"
+                        {
+                            "id" "elementid" "18ebb2c1-5578-4e98-9e11-ff43245a69e1"
+                            "name" "string" "quaternion log"
+                            "layers" "element_array"
+                            [
+                                "DmeQuaternionLogLayer"
+                                {
+                                    "id" "elementid" "9d46c3c1-8d4f-42eb-8d98-4d787b5dee9a"
+                                    "name" "string" "quaternion log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "quaternion_array" [ "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "quaternion" "0 0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "18351f10-7f69-4233-88e9-678820c46b8d"
+                        "name" "string" "joint8_p"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "4d7b0304-3652-459b-9e81-2820441cab53"
+                        "toAttribute" "string" "position"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeVector3Log"
+                        {
+                            "id" "elementid" "1cee35c0-95c5-498a-bc56-9ce28ac61153"
+                            "name" "string" "vector3 log"
+                            "layers" "element_array"
+                            [
+                                "DmeVector3LogLayer"
+                                {
+                                    "id" "elementid" "e7ecb74a-d94c-4a50-85aa-6079339541ba"
+                                    "name" "string" "vector3 log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "vector3_array" [ "-0.3111279 -1.2432737 -0.6778946", "-0.3301251 -1.2437115 -0.6778946", "-0.38192868 -1.2449055 -0.6778945", "-0.45773435 -1.2466536 -0.6778947", "-0.5500195 -1.2487783 -0.67789435", "-0.6507275 -1.2511015 -0.6778945", "-0.7510693 -1.2534132 -0.6778946", "-0.84335446 -1.2555342 -0.6778947", "-0.91952634 -1.2572966 -0.6778947", "-0.97079587 -1.2584791 -0.6778946", "-0.98983884 -1.258914 -0.6778945", "-1.0044873 -1.2563734 -0.67789435", "-1.0435498 -1.2495375 -0.6778945", "-1.1016552 -1.2394342 -0.67789435", "-1.172456 -1.2271299 -0.67789435", "-1.2491162 -1.2138243 -0.6778946", "-1.3257763 -1.2004881 -0.67789435", "-1.3960888 -1.1881895 -0.6778946", "-1.453706 -1.1780882 -0.6778946", "-1.4927685 -1.1712523 -0.6778946", "-1.507417 -1.1686888 -0.6778946", "-1.5113232 -1.1562986 -0.6778946", "-1.5210888 -1.1225462 -0.67789435", "-1.5347607 -1.0726194 -0.67789435", "-1.5523388 -1.0124388 -0.6778946", "-1.5708935 -0.9466429 -0.67789435", "-1.5894482 -0.8807249 -0.6778946", "-1.6070263 -0.8206663 -0.6778946", "-1.6206982 -0.7708616 -0.67789435", "-1.6304638 -0.73741436 -0.6778946", "-1.6343701 -0.72471905 -0.6778946", "-1.6206982 -0.7266722 -0.6778946", "-1.5835888 -0.73253155 -0.67789435", "-1.5298779 -0.7408323 -0.67789435", "-1.4634717 -0.75108624 -0.6778946", "-1.3921826 -0.76207256 -0.6778941", "-1.319917 -0.7730589 -0.6778946", "-1.2544873 -0.7833128 -0.6778946", "-1.200288 -0.7916136 -0.6778946", "-1.163667 -0.79747295 -0.6778941", "-1.1499951 -0.7994261 -0.6778946", "-1.1358349 -0.8018675 -0.67789435", "-1.0987256 -0.80821514 -0.6778946", "-1.0430615 -0.8177366 -0.67789435", "-0.9756787 -0.82921124 -0.6778946", "-0.9029248 -0.8416624 -0.67789483", "-0.8296826 -0.8541136 -0.6778946", "-0.7625439 -0.8655882 -0.6778946", "-0.70736814 -0.87486553 -0.67789435", "-0.6697705 -0.8812132 -0.67789435", "-0.65585446 -0.8836546 -0.6778946", "-0.64193845 -0.8853636 -0.6778941", "-0.60409665 -0.89049053 -0.6778946", "-0.54818845 -0.89781475 -0.6778946", "-0.48068357 -0.9066038 -0.6778946", "-0.4069531 -0.9161253 -0.6778946", "-0.33302426 -0.9256468 -0.67789435", "-0.2654736 -0.93468 -0.6778946", "-0.20968747 -0.94176006 -0.6778946", "-0.17184567 -0.946887 -0.6778945", "-0.15792966 -0.948596 -0.6778946", "-0.16330075 -0.93565655 -0.67789435", "-0.17807126 -0.90025616 -0.67789435", "-0.1996777 -0.8487425 -0.67789435", "-0.2260449 -0.7857542 -0.67789435", "-0.25476193 -0.7173948 -0.6778946", "-0.28334165 -0.64903545 -0.6778946", "-0.30967832 -0.5860472 -0.67789435", "-0.33140683 -0.53428936 -0.67789435", "-0.34607053 -0.4991331 -0.67789435", "-0.35150266 -0.4864378 -0.67789435", "-0.36520505 -0.48448467 -0.67789435", "-0.4019482 -0.47911358 -0.6778946", "-0.4562695 -0.47130108 -0.6778946", "-0.5224316 -0.46153545 -0.6778946", "-0.5940869 -0.45128155 -0.6778946", "-0.6658642 -0.44053936 -0.67789435", "-0.73202634 -0.43126202 -0.67789435", "-0.78622556 -0.42296124 -0.6778946", "-0.82284665 -0.41807842 -0.6778946", "-0.8365185 -0.41563702 -0.6778946", "-0.8501904 -0.4131956 -0.67789435", "-0.88827634 -0.40635967 -0.6778946", "-0.9444287 -0.39610577 -0.6778946", "-1.0118115 -0.38341045 -0.67789483", "-1.0860302 -0.37022686 -0.67789435", "-1.1597607 -0.35655499 -0.6778946", "-1.2276318 -0.34385967 -0.67789483", "-1.2832959 -0.33360577 -0.67789483", "-1.3208935 -0.32676983 -0.6778946", "-1.3345654 -0.32432842 -0.67789483", "-1.3267529 -0.31358624 -0.6778946", "-1.304292 -0.28526592 -0.6778946", "-1.2710888 -0.24327374 -0.6778946", "-1.2310498 -0.19249249 -0.67789435", "-1.1866162 -0.13682842 -0.6778946", "-1.1431592 -0.08116436 -0.67789483", "-1.1026318 -0.03038311 -0.6778941", "-1.0694287 0.011609077 -0.67789435", "-1.0469677 0.03992939 -0.67789435", "-1.038667 0.050671577 -0.67789435" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "vector3" "0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    },
+                    "DmeChannel"
+                    {
+                        "id" "elementid" "6c6a979d-a957-499b-99b5-6e9a0e189077"
+                        "name" "string" "joint8_o"
+                        "fromElement" "element" ""
+                        "fromAttribute" "string" ""
+                        "fromIndex" "int" "0"
+                        "toElement" "element" "4d7b0304-3652-459b-9e81-2820441cab53"
+                        "toAttribute" "string" "orientation"
+                        "toIndex" "int" "0"
+                        "mode" "int" "3"
+                        "log" "DmeQuaternionLog"
+                        {
+                            "id" "elementid" "14ddbe66-7753-473a-b20d-3a6f61150c9d"
+                            "name" "string" "quaternion log"
+                            "layers" "element_array"
+                            [
+                                "DmeQuaternionLogLayer"
+                                {
+                                    "id" "elementid" "2106b1ac-8864-4d1e-964d-47cb96b2eb17"
+                                    "name" "string" "quaternion log"
+                                    "times" "time_array" [ "0", "0.0333333", "0.0666666", "0.1", "0.1333333", "0.1666666", "0.2", "0.2333333", "0.2666666", "0.3", "0.3333333", "0.3666666", "0.4", "0.4333333", "0.4666666", "0.5", "0.5333333", "0.5666666", "0.6", "0.6333333", "0.6666666", "0.7", "0.7333333", "0.7666666", "0.8", "0.8333333", "0.8666666", "0.9", "0.9333333", "0.9666666", "1", "1.0333333", "1.0666666", "1.1", "1.1333333", "1.1666666", "1.2", "1.2333333", "1.2666666", "1.3", "1.3333333", "1.3666666", "1.4", "1.4333333", "1.4666666", "1.5", "1.5333333", "1.5666666", "1.6", "1.6333333", "1.6666666", "1.7", "1.7333333", "1.7666666", "1.8", "1.8333333", "1.8666666", "1.9", "1.9333333", "1.9666666", "2", "2.0333333", "2.0666666", "2.1", "2.1333333", "2.1666666", "2.2", "2.2333333", "2.2666666", "2.3", "2.3333333", "2.3666666", "2.4", "2.4333333", "2.4666666", "2.5", "2.5333333", "2.5666666", "2.6", "2.6333333", "2.6666666", "2.7", "2.7333333", "2.7666666", "2.8", "2.8333333", "2.8666666", "2.9", "2.9333333", "2.9666666", "3", "3.0333333", "3.0666666", "3.1", "3.1333333", "3.1666666", "3.2", "3.2333333", "3.2666666", "3.3", "3.3333333" ]
+                                    "curvetypes" "int_array" [ ]
+                                    "values" "quaternion_array" [ "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1", "0 0 0 -1" ]
+                                }
+                            ]
+                            "curveinfo" "element" ""
+                            "usedefaultvalue" "bool" "0"
+                            "defaultvalue" "quaternion" "0 0 0 0"
+                            "bookmarksX" "time_array" [ ]
+                            "bookmarksY" "time_array" [ ]
+                            "bookmarksZ" "time_array" [ ]
+                            "layerCount" "int" "1"
+                        }
+                    }
+                ]
+                "frameRate" "float" "30"
+            }
+        ]
+    }
+    "exportTags" "DmeExportTags"
+    {
+        "id" "elementid" "1bb56d96-aac3-4b0a-ae54-183a4608cec5"
+        "name" "string" "exportTags"
+        "app" "string" "sfm"
+        "source" "string" "Generated with Source 2 Viewer 11.1.0.0 - https://valveresourceformat.github.io"
+    }
+}
+
+"DmeTransform"
+{
+    "id" "elementid" "6d25d0bb-dea8-4946-9191-45c0af745ae2"
+    "name" "string" "hopper_pips"
+    "position" "vector3" "0 0 0"
+    "orientation" "quaternion" "0.49999997 0.49999997 0.49999997 0.49999997"
+}
+
+"DmeTransform"
+{
+    "id" "elementid" "939eb890-612c-42b6-9569-65fd361bd64d"
+    "name" "string" "joint21"
+    "position" "vector3" "-0.91926515 2.50411 1.1537815"
+    "orientation" "quaternion" "0 0 0 1"
+}
+
+"DmeTransform"
+{
+    "id" "elementid" "e4db9bb2-434e-4696-b721-c9b03225b5e7"
+    "name" "string" "joint20"
+    "position" "vector3" "0.016702592 -4.7683716E-07 -0.6778947"
+    "orientation" "quaternion" "-5.165802E-08 -5.165802E-08 -2.9802322E-08 1"
+}
+
+"DmeTransform"
+{
+    "id" "elementid" "cb97eea4-b252-4b3e-8f68-4ef6b793c713"
+    "name" "string" "joint19"
+    "position" "vector3" "-0.42096996 0.31897497 -0.67789483"
+    "orientation" "quaternion" "-5.165802E-08 -5.165802E-08 -2.9802322E-08 1"
+}
+
+"DmeTransform"
+{
+    "id" "elementid" "4785bea7-0376-4d2b-b7ca-097f8a1a6c9e"
+    "name" "string" "joint18"
+    "position" "vector3" "-0.9185188 0.08536577 -0.67789495"
+    "orientation" "quaternion" "-5.165802E-08 -5.165802E-08 -2.9802322E-08 1"
+}
+
+"DmeTransform"
+{
+    "id" "elementid" "9af508aa-a2f2-4290-a187-4fdca6d20fc8"
+    "name" "string" "joint15"
+    "position" "vector3" "-0.9690169 -0.42857623 -0.67789507"
+    "orientation" "quaternion" "-5.165802E-08 -5.165802E-08 -2.9802322E-08 1"
+}
+
+"DmeTransform"
+{
+    "id" "elementid" "05ba2c14-67fb-4d32-8c92-d948904da9e5"
+    "name" "string" "joint16"
+    "position" "vector3" "-0.47275317 -0.19637322 -0.6778949"
+    "orientation" "quaternion" "-5.165802E-08 -5.165802E-08 -2.9802322E-08 1"
+}
+
+"DmeTransform"
+{
+    "id" "elementid" "5833eaaf-0144-4856-8c4b-5d4f78bd35fa"
+    "name" "string" "joint17"
+    "position" "vector3" "-0.03607434 -0.5146022 -0.6778948"
+    "orientation" "quaternion" "-5.165802E-08 -5.165802E-08 -2.9802322E-08 1"
+}
+
+"DmeTransform"
+{
+    "id" "elementid" "a4112d75-221c-4091-813f-670974400388"
+    "name" "string" "joint11"
+    "position" "vector3" "-0.08795285 -1.0278605 -0.67789483"
+    "orientation" "quaternion" "-5.165802E-08 -5.165802E-08 -2.9802322E-08 1"
+}
+
+"DmeTransform"
+{
+    "id" "elementid" "87a53a37-636c-4c05-bcf8-b131716b12ee"
+    "name" "string" "joint12"
+    "position" "vector3" "-0.5132319 -0.7109746 -0.67789495"
+    "orientation" "quaternion" "-5.165802E-08 -5.165802E-08 -2.9802322E-08 1"
+}
+
+"DmeTransform"
+{
+    "id" "elementid" "f6900373-c777-45b2-bd8b-01083842c318"
+    "name" "string" "joint13"
+    "position" "vector3" "-1.0195149 -0.9415765 -0.67789507"
+    "orientation" "quaternion" "-5.165802E-08 -5.165802E-08 -2.9802322E-08 1"
+}
+
+"DmeTransform"
+{
+    "id" "elementid" "70279c9f-09a6-4767-a32b-5579d2160595"
+    "name" "string" "joint14"
+    "position" "vector3" "-0.5810108 -1.2217406 -0.67789495"
+    "orientation" "quaternion" "-5.165802E-08 -5.165802E-08 -2.9802322E-08 1"
+}
+
+"DmeTransform"
+{
+    "id" "elementid" "1a9baf0c-5410-4fd0-b968-fe6c92ad02b3"
+    "name" "string" "joint10"
+    "position" "vector3" "-0.31313396 -1.241995 -0.6778945"
+    "orientation" "quaternion" "0 0 0 1"
+}
+
+"DmeTransform"
+{
+    "id" "elementid" "2134ffcf-37e8-48c1-945c-c2a28c5c1b10"
+    "name" "string" "joint9"
+    "position" "vector3" "-0.3141669 -1.2426343 -0.6778945"
+    "orientation" "quaternion" "0 0 0 1"
+}
+
+"DmeTransform"
+{
+    "id" "elementid" "4d7b0304-3652-459b-9e81-2820441cab53"
+    "name" "string" "joint8"
+    "position" "vector3" "-0.3111279 -1.2432737 -0.6778945"
+    "orientation" "quaternion" "0 0 0 1"
+}
+
+"DmeTransform"
+{
+    "id" "elementid" "5e53cad7-4bf9-4472-a166-e8db8da133fb"
+    "name" "string" "joint22"
+    "position" "vector3" "-1.349875 2.4357903 1.9473355"
+    "orientation" "quaternion" "-5.165802E-08 -5.165802E-08 -2.9802322E-08 1"
+}
