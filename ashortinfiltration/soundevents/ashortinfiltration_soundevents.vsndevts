@@ -1,6 +1,6 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	"Music.StealthMusic" = 
+	"Custom.SKF_01" = 
 	{
 		type = "hlvr_default_3d"
 		volume = 0.6
@@ -12,10 +12,10 @@
 		spread_max = 150
 		vsnd_files = 
 		[
-			"sounds/StealthMusic.vsnd",
+			"sounds/SKF_VO_01.vsnd",
 		]
 	}
-		"LCV.Music.Anticipation" = 
+		"Custom.SKF_02" = 
 	{
 		type = "hlvr_default_3d"
 		volume = 0.6
@@ -27,10 +27,10 @@
 		spread_max = 150
 		vsnd_files = 
 		[
-			"sounds/LeCastleVania_InfiniteAmmo/LCV_Anticipation.vsnd",
+			"sounds/SKF_VO_02.vsnd",
 		]
 	}
-			"LCV.Music.Assault" = 
+		"Custom.SKF_VHS_01" = 
 	{
 		type = "hlvr_default_3d"
 		volume = 0.6
@@ -42,10 +42,10 @@
 		spread_max = 150
 		vsnd_files = 
 		[
-			"sounds/LeCastleVania_InfiniteAmmo/LCV_Assault.vsnd",
+			"sounds/SKF_VHS_01.vsnd",
 		]
 	}
-			"LCV.Music.Control" = 
+			"Custom.SKF_VHS_02" = 
 	{
 		type = "hlvr_default_3d"
 		volume = 0.6
@@ -57,7 +57,7 @@
 		spread_max = 150
 		vsnd_files = 
 		[
-			"sounds/LeCastleVania_InfiniteAmmo/LCV_Control.vsnd",
+			"sounds/SKF_VHS_02.vsnd",
 		]
 	}
 }
