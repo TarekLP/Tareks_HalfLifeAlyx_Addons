@@ -5,347 +5,165 @@
 		_class = "RootNode"
 		children = 
 		[
-			
 			{
 				_class = "BoneMarkupList"
-				children = 
-				[
-				]
 				bone_cull_type = "None"
 			},
-			
 			{
 				_class = "RenderMeshList"
 				children = 
 				[
-					
 					{
 						_class = "RenderMeshFile"
 						name = "vr_alyxgun_hopper_pips"
 						filename = "models/weapons/vr_alyxgun/vr_alyxgun_hopper_pips_vr_alyxgun_hopper_pips.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
 					},
 				]
 			},
-			
 			{
 				_class = "AnimationList"
 				children = 
 				[
-					
 					{
 						_class = "AnimFile"
 						name = "pips_anim"
-						source_filename = "models/weapons/vr_alyxgun/pips_anim.dmx"
-						fade_in_time = 0.200000
-						fade_out_time = 0.200000
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
 						looping = false
 						delta = false
 						worldSpace = false
 						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/vr_alyxgun/pips_anim.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
 					},
 				]
+				default_root_bone_name = ""
 			},
-			
 			{
 				_class = "Skeleton"
 				children = 
 				[
-					
 					{
 						_class = "Bone"
 						name = "hopper_pips"
-						origin = 
-						[
-							0.000000,
-							0.000000,
-							0.000000,
-						]
-						angles = 
-						[
-							0.000000,
-							89.999990,
-							89.999990,
-						]
-						do_not_discard = true
 						children = 
 						[
-							
 							{
 								_class = "Bone"
 								name = "joint21"
-								origin = 
-								[
-									-0.919265,
-									2.504110,
-									1.153782,
-								]
-								angles = 
-								[
-									0.000000,
-									0.000000,
-									0.000000,
-								]
-								do_not_discard = true
 								children = 
 								[
-									
 									{
 										_class = "Bone"
 										name = "joint20"
-										origin = 
-										[
-											0.016703,
-											-0.000000,
-											-0.677895,
-										]
-										angles = 
-										[
-											-0.000006,
-											-0.000003,
-											-0.000006,
-										]
-										do_not_discard = true
+										origin = [ 0.016703, -0.0, -0.677895 ]
+										angles = [ -0.000006, -0.000003, -0.000006 ]
 									},
-									
 									{
 										_class = "Bone"
 										name = "joint19"
-										origin = 
-										[
-											-0.420970,
-											0.318975,
-											-0.677895,
-										]
-										angles = 
-										[
-											-0.000006,
-											-0.000003,
-											-0.000006,
-										]
-										do_not_discard = true
+										origin = [ -0.42097, 0.318975, -0.677895 ]
+										angles = [ -0.000006, -0.000003, -0.000006 ]
 									},
-									
 									{
 										_class = "Bone"
 										name = "joint18"
-										origin = 
-										[
-											-0.918519,
-											0.085366,
-											-0.677895,
-										]
-										angles = 
-										[
-											-0.000006,
-											-0.000003,
-											-0.000006,
-										]
-										do_not_discard = true
+										origin = [ -0.918519, 0.085366, -0.677895 ]
+										angles = [ -0.000006, -0.000003, -0.000006 ]
 									},
-									
 									{
 										_class = "Bone"
 										name = "joint15"
-										origin = 
-										[
-											-0.969017,
-											-0.428576,
-											-0.677895,
-										]
-										angles = 
-										[
-											-0.000006,
-											-0.000003,
-											-0.000006,
-										]
-										do_not_discard = true
+										origin = [ -0.969017, -0.428576, -0.677895 ]
+										angles = [ -0.000006, -0.000003, -0.000006 ]
 									},
-									
 									{
 										_class = "Bone"
 										name = "joint16"
-										origin = 
-										[
-											-0.472753,
-											-0.196373,
-											-0.677895,
-										]
-										angles = 
-										[
-											-0.000006,
-											-0.000003,
-											-0.000006,
-										]
-										do_not_discard = true
+										origin = [ -0.472753, -0.196373, -0.677895 ]
+										angles = [ -0.000006, -0.000003, -0.000006 ]
 									},
-									
 									{
 										_class = "Bone"
 										name = "joint17"
-										origin = 
-										[
-											-0.036074,
-											-0.514602,
-											-0.677895,
-										]
-										angles = 
-										[
-											-0.000006,
-											-0.000003,
-											-0.000006,
-										]
-										do_not_discard = true
+										origin = [ -0.036074, -0.514602, -0.677895 ]
+										angles = [ -0.000006, -0.000003, -0.000006 ]
 									},
-									
 									{
 										_class = "Bone"
 										name = "joint11"
-										origin = 
-										[
-											-0.087953,
-											-1.027861,
-											-0.677895,
-										]
-										angles = 
-										[
-											-0.000006,
-											-0.000003,
-											-0.000006,
-										]
-										do_not_discard = true
+										origin = [ -0.087953, -1.027861, -0.677895 ]
+										angles = [ -0.000006, -0.000003, -0.000006 ]
 									},
-									
 									{
 										_class = "Bone"
 										name = "joint12"
-										origin = 
-										[
-											-0.513232,
-											-0.710975,
-											-0.677895,
-										]
-										angles = 
-										[
-											-0.000006,
-											-0.000003,
-											-0.000006,
-										]
-										do_not_discard = true
+										origin = [ -0.513232, -0.710975, -0.677895 ]
+										angles = [ -0.000006, -0.000003, -0.000006 ]
 									},
-									
 									{
 										_class = "Bone"
 										name = "joint13"
-										origin = 
-										[
-											-1.019515,
-											-0.941577,
-											-0.677895,
-										]
-										angles = 
-										[
-											-0.000006,
-											-0.000003,
-											-0.000006,
-										]
-										do_not_discard = true
+										origin = [ -1.019515, -0.941577, -0.677895 ]
+										angles = [ -0.000006, -0.000003, -0.000006 ]
 									},
-									
 									{
 										_class = "Bone"
 										name = "joint14"
-										origin = 
-										[
-											-0.581011,
-											-1.221741,
-											-0.677895,
-										]
-										angles = 
-										[
-											-0.000006,
-											-0.000003,
-											-0.000006,
-										]
-										do_not_discard = true
+										origin = [ -0.581011, -1.221741, -0.677895 ]
+										angles = [ -0.000006, -0.000003, -0.000006 ]
 									},
-									
 									{
 										_class = "Bone"
 										name = "joint10"
-										origin = 
-										[
-											-0.313134,
-											-1.241995,
-											-0.677895,
-										]
-										angles = 
-										[
-											0.000000,
-											0.000000,
-											0.000000,
-										]
-										do_not_discard = true
+										origin = [ -0.313134, -1.241995, -0.677895 ]
+										angles = [ 0.0, 0.0, 0.0 ]
 									},
-									
 									{
 										_class = "Bone"
 										name = "joint9"
-										origin = 
-										[
-											-0.314167,
-											-1.242634,
-											-0.677895,
-										]
-										angles = 
-										[
-											0.000000,
-											0.000000,
-											0.000000,
-										]
-										do_not_discard = true
+										origin = [ -0.314167, -1.242634, -0.677895 ]
+										angles = [ 0.0, 0.0, 0.0 ]
 									},
-									
 									{
 										_class = "Bone"
 										name = "joint8"
-										origin = 
-										[
-											-0.311128,
-											-1.243274,
-											-0.677895,
-										]
-										angles = 
-										[
-											0.000000,
-											0.000000,
-											0.000000,
-										]
-										do_not_discard = true
+										origin = [ -0.311128, -1.243274, -0.677895 ]
+										angles = [ 0.0, 0.0, 0.0 ]
 									},
 								]
+								origin = [ -0.919265, 2.50411, 1.153782 ]
+								angles = [ 0.0, 0.0, 0.0 ]
 							},
-							
 							{
 								_class = "Bone"
 								name = "joint22"
-								origin = 
-								[
-									-1.349875,
-									2.435790,
-									1.947335,
-								]
-								angles = 
-								[
-									-0.000006,
-									-0.000003,
-									-0.000006,
-								]
-								do_not_discard = true
+								origin = [ -1.349875, 2.43579, 1.947335 ]
+								angles = [ -0.000006, -0.000003, -0.000006 ]
 							},
 						]
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 89.999992, 89.999992 ]
 					},
 				]
 			},
 		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
 	}
 }

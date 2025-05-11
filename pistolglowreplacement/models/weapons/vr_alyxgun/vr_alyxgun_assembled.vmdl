@@ -31,19 +31,18 @@
 				children = 
 				[
 					{
-						_class = "PhysicsHullFile"
-						parent_bone = ""
-						surface_prop = "prop.metal_gun"
+						_class = "PhysicsMeshFile"
+						name = "vr_alyxgun_assembled_unnamed_1"
+						parent_bone = "animation_root_bone"
+						surface_prop = "default"
 						collision_prop = "default"
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
-						filename = "models/weapons/vr_alyxgun/vr_alyxgun_assembled_hull.dmx"
+						filename = "models/weapons/vr_alyxgun/vr_alyxgun_assembled_unnamed_1.dmx"
 						import_scale = 1.0
-						faceMergeAngle = 10.0
-						maxHullVertices = 0
-						import_mode = "SingleHull"
-						optimization_algorithm = "QEM"
+						maxMeshVertices = 0
+						qemError = 0.0
 						import_filter = 
 						{
 							exclude_by_default = false
