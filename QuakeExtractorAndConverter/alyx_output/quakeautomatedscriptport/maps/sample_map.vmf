@@ -1,0 +1,115 @@
+versioninfo
+{
+    "mapversion" "1"
+    "editorversion" "400"
+    "editorbuild" "8000"
+    "formatversion" "1"
+    "prefab" "0"
+}
+world
+{
+    "id" "1"
+    "mapversion" "1"
+    "classname" "worldspawn"
+    solid
+    {
+        "id" "2"
+        side
+        {
+            "id" "3"
+            "plane" "(-96.000000 0.000000 96.000000) (96.000000 0.000000 96.000000) (-96.000000 0.000000 -96.000000)"
+            "material" "materials/WALL_TEX"
+            "uaxis" "[1 0 0 0] 0.0625"
+            "vaxis" "[0 1 0 0] 0.0625"
+            "rotation" "0"
+            "lightmapscale" "16"
+            "smoothing_groups" "0"
+        }
+        side
+        {
+            "id" "4"
+            "plane" "(-96.000000 96.000000 96.000000) (-96.000000 96.000000 -96.000000) (96.000000 96.000000 96.000000)"
+            "material" "materials/CEILING_TEX"
+            "uaxis" "[1 0 0 0] 0.0625"
+            "vaxis" "[0 1 0 0] 0.0625"
+            "rotation" "0"
+            "lightmapscale" "16"
+            "smoothing_groups" "0"
+        }
+        side
+        {
+            "id" "5"
+            "plane" "(-96.000000 0.000000 96.000000) (-96.000000 96.000000 96.000000) (-96.000000 0.000000 -96.000000)"
+            "material" "materials/FLOOR_TEX"
+            "uaxis" "[1 0 0 0] 0.0625"
+            "vaxis" "[0 1 0 0] 0.0625"
+            "rotation" "0"
+            "lightmapscale" "16"
+            "smoothing_groups" "0"
+        }
+        side
+        {
+            "id" "6"
+            "plane" "(96.000000 0.000000 96.000000) (96.000000 0.000000 -96.000000) (96.000000 96.000000 96.000000)"
+            "material" "materials/BRICK_TEX"
+            "uaxis" "[1 0 0 0] 0.0625"
+            "vaxis" "[0 1 0 0] 0.0625"
+            "rotation" "0"
+            "lightmapscale" "16"
+            "smoothing_groups" "0"
+        }
+        side
+        {
+            "id" "7"
+            "plane" "(-96.000000 0.000000 -96.000000) (96.000000 0.000000 -96.000000) (-96.000000 96.000000 -96.000000)"
+            "material" "materials/{CLIP"
+            "uaxis" "[1 0 0 0] 0.0625"
+            "vaxis" "[0 1 0 0] 0.0625"
+            "rotation" "0"
+            "lightmapscale" "16"
+            "smoothing_groups" "0"
+        }
+        side
+        {
+            "id" "8"
+            "plane" "(-96.000000 0.000000 96.000000) (-96.000000 0.000000 -96.000000) (96.000000 0.000000 96.000000)"
+            "material" "materials/WATER_TEX"
+            "uaxis" "[1 0 0 0] 0.0625"
+            "vaxis" "[0 1 0 0] 0.0625"
+            "rotation" "0"
+            "lightmapscale" "16"
+            "smoothing_groups" "0"
+        }
+        "editor"
+        {
+            "color" "255 0 0"
+            "visgroupshown" "1"
+            "visgroupautoshown" "1"
+            "logicalpos" "[0 0]"
+        }
+    }
+    "editor"
+    {
+        "color" "255 0 0"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "logicalpos" "[0 0]"
+    }
+}
+entity
+{
+    "id" "9"
+    "classname" "info_player_start"
+    "origin" "0 0 64"
+    "angles" "0 0 0"
+    "editor"
+    {
+        "color" "255 255 0"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "logicalpos" "[0 0]"
+    }
+}
+hidden
+{
+}
