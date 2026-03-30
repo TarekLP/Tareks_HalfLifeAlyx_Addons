@@ -1,0 +1,79 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_bloody_simple.vfx"
+
+	//---- Decals ----
+	F_SUPPORTS_DECALS 1
+
+	//---- Game ----
+	F_REFLEX_SIGHT_ACTIVE 1
+
+	//---- Self Illum ----
+	F_SELF_ILLUM 1
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "models/characters/combine_helmet/materials/breakable/combine_helmet_breakable_ao.png"
+
+	//---- Blood Material ----
+	g_bBloodUseUV2 "1"
+	g_flBloodMetalness "0.000"
+	g_flDecalSize "12.000"
+	g_flDecalTileFactor "1.000"
+	g_nDecalSlot "1"
+	g_nDecalSlots "2"
+	g_vBloodColor "[0.301961 0.000000 0.000000 0.000000]"
+	g_vBloodSelfIllumTint "[0.301961 0.000000 0.000000 0.000000]"
+	TextureBloodDecal "models/characters/combine_soldier_heavy/materials/blood/heavy_gore_decal_blood.png"
+	TextureColorBlood "models/creatures/zombie_classic_v2/materials/zombie_blood_color.png"
+	TextureDecalIDMask "[0.000000 1.000000 0.000000 0.000000]"
+	TextureHeightDecal "models/characters/combine_soldier_heavy/materials/blood/heavy_gore_decal_blood_9cc7d1c7_height.png"
+	TextureNormalBlood "models/characters/combine_helmet/materials/breakable/combine_helmet_breakable_blood_normal.png"
+	TextureRoughnessBlood "materials/default/default_rough.tga"
+	TextureSelfIllumMaskBlood "materials/default/default_selfillum.tga"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureColor "models/characters/combine_helmet/materials/breakable/combine_helmet_breakable_default_color.png"
+
+	//---- Fade ----
+	g_flFadeExponent "1.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Metalness ----
+	TextureMetalness "models/characters/combine_helmet/materials/breakable/combine_helmet_breakable_default_45381e5_metal.png"
+
+	//---- Normal ----
+	TextureNormal "models/characters/combine_helmet/materials/breakable/combine_helmet_breakable_normal.png"
+
+	//---- Roughness ----
+	TextureRoughness "models/characters/combine_helmet/materials/breakable/combine_helmet_breakable_b9e98e19_rough.png"
+
+	//---- Self Illum ----
+	g_flSelfIllumAlbedoFactor "1.000"
+	g_flSelfIllumBrightness "4.000"
+	g_flSelfIllumScale "0.000"
+	g_vSelfIllumScrollSpeed "[0.000 0.000]"
+	g_vSelfIllumTint "[0.294118 0.000000 0.509804 1.000000]"
+	TextureSelfIllumMask "models/characters/combine_helmet/materials/breakable/combine_helmet_breakable_selfillum.png"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+
+	DynamicParams
+	{
+		g_flSelfIllumScale "return 1*$EyeBrightness;"
+	}
+}

@@ -1,0 +1,624 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+				]
+				bone_cull_type = "None"
+			},
+			
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					
+					{
+						_class = "RenderMeshFile"
+						name = "resin_puck02_mesh"
+						filename = "models/items/crafting_metal/resin_puck02_resin_puck02_mesh.dmx"
+					},
+					
+					{
+						_class = "RenderMeshFile"
+						name = "resin_puck02_lod1"
+						filename = "models/items/crafting_metal/resin_puck02_resin_puck02_lod11.dmx"
+					},
+					
+					{
+						_class = "RenderMeshFile"
+						name = "resin_puck02_lod2"
+						filename = "models/items/crafting_metal/resin_puck02_resin_puck02_lod22.dmx"
+					},
+				]
+			},
+			
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/items/crafting_metal/resin_puck02_hull.dmx"
+						surface_prop = "prop.xen_resin_puck"
+						collision_tags = ""
+						name = ""
+					},
+				]
+			},
+			
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Item.Medium"
+							allowstatic = false
+							damage_table = ""
+							dmg.bullets = 0.000000
+							dmg.club = 0.000000
+							dmg.explosive = 0.000000
+							dmg.fire = 0.000000
+							health = 0.000000
+							spawn_motion_disabled = false
+							bakelighting = true
+						}
+					},
+					
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "handpose_data"
+						game_keys = 
+						{
+							handpose_bone = ""
+							handpose_model = "models/props/max/handposes/handpose_grabpole.vmdl"
+							allow_procedural_handpose = false
+							global_pose_template = false
+						}
+					},
+					
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = ""
+							radius = 1.668800
+							point0 = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							point1 = 
+							[
+								0.000000,
+								0.000000,
+								0.040116,
+							]
+						}
+					},
+					
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "hand_pose_pair"
+						game_keys = 
+						{
+							sequence = "grab"
+							conform_fingers = false
+							origin_left = 
+							[
+								1.074860,
+								3.020810,
+								-0.598652,
+							]
+							angles_left = 
+							[
+								-56.383900,
+								-131.125000,
+								117.405000,
+							]
+							origin_right = 
+							[
+								0.824414,
+								-3.020810,
+								-0.598652,
+							]
+							angles_right = 
+							[
+								-56.383900,
+								131.125000,
+								-117.405000,
+							]
+							max_distance = 5.000000
+							finger_thumb = 0.977417
+							finger_pinky = 0.487424
+							finger_ring = 0.446865
+							finger_middle = 0.407835
+							finger_index = 0.404728
+							has_extent = false
+							show_extent_helper = false
+							extent_origin_left = 
+							[
+								0.000000,
+								0.000000,
+								2.000000,
+							]
+							extent_origin_min_left = 
+							[
+								0.000000,
+								0.000000,
+								-1.000000,
+							]
+							extent_origin_right = 
+							[
+								0.000000,
+								-0.000000,
+								2.000000,
+							]
+							extent_origin_min_right = 
+							[
+								0.000000,
+								0.000000,
+								1.000000,
+							]
+							has_rotation = true
+							rotation_axis0 = 
+							[
+								0.000000,
+								0.000000,
+								10.000000,
+							]
+							rotation_axis1 = 
+							[
+								0.000000,
+								0.000000,
+								-10.000000,
+							]
+							pivot_min = 0.000000
+							pivot_max = 0.000000
+							squeezable = false
+							squeeze_target = false
+						}
+					},
+					
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "hand_pose_pair"
+						game_keys = 
+						{
+							sequence = "grab"
+							conform_fingers = false
+							origin_left = 
+							[
+								-0.409782,
+								2.692460,
+								-0.188268,
+							]
+							angles_left = 
+							[
+								-8.131790,
+								-47.915000,
+								8.901860,
+							]
+							origin_right = 
+							[
+								-0.409782,
+								-2.692460,
+								-0.188268,
+							]
+							angles_right = 
+							[
+								-8.131790,
+								47.915005,
+								-8.901860,
+							]
+							max_distance = 5.000000
+							finger_thumb = 1.000000
+							finger_pinky = 0.372033
+							finger_ring = 0.136700
+							finger_middle = 0.129163
+							finger_index = 0.098023
+							has_extent = false
+							show_extent_helper = false
+							extent_origin_left = 
+							[
+								0.000000,
+								0.000000,
+								2.000000,
+							]
+							extent_origin_min_left = 
+							[
+								0.000000,
+								0.000000,
+								-1.000000,
+							]
+							extent_origin_right = 
+							[
+								0.000000,
+								-0.000000,
+								2.000000,
+							]
+							extent_origin_min_right = 
+							[
+								0.000000,
+								0.000000,
+								1.000000,
+							]
+							has_rotation = true
+							rotation_axis0 = 
+							[
+								0.000000,
+								0.000000,
+								10.000000,
+							]
+							rotation_axis1 = 
+							[
+								0.000000,
+								0.000000,
+								-10.000000,
+							]
+							pivot_min = 0.000000
+							pivot_max = 0.000000
+							squeezable = false
+							squeeze_target = false
+						}
+					},
+					
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "hand_pose_pair"
+						game_keys = 
+						{
+							sequence = "grab"
+							conform_fingers = false
+							origin_left = 
+							[
+								-0.409782,
+								-2.692460,
+								0.188268,
+							]
+							angles_left = 
+							[
+								8.131790,
+								47.915009,
+								-171.098145,
+							]
+							origin_right = 
+							[
+								-0.409782,
+								2.692460,
+								0.188268,
+							]
+							angles_right = 
+							[
+								8.131790,
+								-47.915005,
+								171.098145,
+							]
+							max_distance = 5.000000
+							finger_thumb = 1.000000
+							finger_pinky = 0.372033
+							finger_ring = 0.136700
+							finger_middle = 0.129163
+							finger_index = 0.098023
+							has_extent = false
+							show_extent_helper = false
+							extent_origin_left = 
+							[
+								0.000000,
+								-0.000000,
+								-2.000000,
+							]
+							extent_origin_min_left = 
+							[
+								0.000000,
+								0.000000,
+								-1.000000,
+							]
+							extent_origin_right = 
+							[
+								0.000000,
+								0.000000,
+								-2.000000,
+							]
+							extent_origin_min_right = 
+							[
+								0.000000,
+								0.000000,
+								1.000000,
+							]
+							has_rotation = true
+							rotation_axis0 = 
+							[
+								0.000000,
+								0.000000,
+								10.000000,
+							]
+							rotation_axis1 = 
+							[
+								0.000000,
+								0.000000,
+								-10.000000,
+							]
+							pivot_min = 0.000000
+							pivot_max = 0.000000
+							squeezable = false
+							squeeze_target = false
+						}
+					},
+					
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "hand_pose_pair"
+						game_keys = 
+						{
+							sequence = "grab"
+							conform_fingers = false
+							origin_left = 
+							[
+								-0.409782,
+								0.492093,
+								3.284550,
+							]
+							angles_left = 
+							[
+								45.358900,
+								-19.221300,
+								80.076200,
+							]
+							origin_right = 
+							[
+								-0.409782,
+								-0.492093,
+								3.284550,
+							]
+							angles_right = 
+							[
+								45.358894,
+								19.221300,
+								-80.076210,
+							]
+							max_distance = 5.000000
+							finger_thumb = 1.000000
+							finger_pinky = 0.372033
+							finger_ring = 0.136700
+							finger_middle = 0.129163
+							finger_index = 0.098023
+							has_extent = false
+							show_extent_helper = false
+							extent_origin_left = 
+							[
+								0.000000,
+								0.000000,
+								2.000000,
+							]
+							extent_origin_min_left = 
+							[
+								0.000000,
+								0.000000,
+								-1.000000,
+							]
+							extent_origin_right = 
+							[
+								0.000000,
+								-0.000000,
+								2.000000,
+							]
+							extent_origin_min_right = 
+							[
+								0.000000,
+								0.000000,
+								1.000000,
+							]
+							has_rotation = true
+							rotation_axis0 = 
+							[
+								0.000000,
+								0.000000,
+								10.000000,
+							]
+							rotation_axis1 = 
+							[
+								0.000000,
+								0.000000,
+								-10.000000,
+							]
+							pivot_min = 0.000000
+							pivot_max = 0.000000
+							squeezable = false
+							squeeze_target = false
+						}
+					},
+					
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "hand_pose_pair"
+						game_keys = 
+						{
+							sequence = "grab"
+							conform_fingers = false
+							origin_left = 
+							[
+								-0.409782,
+								-0.492093,
+								-2.807270,
+							]
+							angles_left = 
+							[
+								-45.358894,
+								19.221296,
+								-99.923790,
+							]
+							origin_right = 
+							[
+								-0.409782,
+								0.492093,
+								-2.807270,
+							]
+							angles_right = 
+							[
+								-45.358900,
+								-19.221300,
+								99.923800,
+							]
+							max_distance = 5.000000
+							finger_thumb = 1.000000
+							finger_pinky = 0.372033
+							finger_ring = 0.136700
+							finger_middle = 0.129163
+							finger_index = 0.098023
+							has_extent = false
+							show_extent_helper = false
+							extent_origin_left = 
+							[
+								0.000000,
+								-0.000000,
+								-2.000000,
+							]
+							extent_origin_min_left = 
+							[
+								0.000000,
+								0.000000,
+								-1.000000,
+							]
+							extent_origin_right = 
+							[
+								0.000000,
+								0.000000,
+								-2.000000,
+							]
+							extent_origin_min_right = 
+							[
+								0.000000,
+								0.000000,
+								1.000000,
+							]
+							has_rotation = true
+							rotation_axis0 = 
+							[
+								0.000000,
+								0.000000,
+								10.000000,
+							]
+							rotation_axis1 = 
+							[
+								0.000000,
+								0.000000,
+								-10.000000,
+							]
+							pivot_min = 0.000000
+							pivot_max = 0.000000
+							squeezable = false
+							squeeze_target = false
+						}
+					},
+					
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "hand_pose_pair"
+						game_keys = 
+						{
+							sequence = "grab"
+							conform_fingers = false
+							origin_left = 
+							[
+								-3.263870,
+								-0.223440,
+								-0.449065,
+							]
+							angles_left = 
+							[
+								31.950491,
+								15.820897,
+								-77.462997,
+							]
+							origin_right = 
+							[
+								-3.263870,
+								0.223440,
+								-0.449065,
+							]
+							angles_right = 
+							[
+								31.950499,
+								-15.820899,
+								77.463005,
+							]
+							max_distance = 5.000000
+							finger_thumb = 1.000000
+							finger_pinky = 0.338542
+							finger_ring = 0.352328
+							finger_middle = 0.297873
+							finger_index = 0.325246
+							has_extent = false
+							show_extent_helper = false
+							extent_origin_left = 
+							[
+								0.000000,
+								-0.000000,
+								-2.000000,
+							]
+							extent_origin_min_left = 
+							[
+								0.000000,
+								0.000000,
+								-1.000000,
+							]
+							extent_origin_right = 
+							[
+								0.000000,
+								0.000000,
+								-2.000000,
+							]
+							extent_origin_min_right = 
+							[
+								0.000000,
+								0.000000,
+								1.000000,
+							]
+							has_rotation = true
+							rotation_axis0 = 
+							[
+								0.000000,
+								0.000000,
+								10.000000,
+							]
+							rotation_axis1 = 
+							[
+								0.000000,
+								0.000000,
+								-10.000000,
+							]
+							pivot_min = 0.000000
+							pivot_max = 0.000000
+							squeezable = false
+							squeeze_target = false
+						}
+					},
+				]
+			},
+		]
+	}
+}

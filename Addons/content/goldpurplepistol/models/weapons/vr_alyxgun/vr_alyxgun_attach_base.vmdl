@@ -1,0 +1,143 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+				]
+				bone_cull_type = "None"
+			},
+			
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					
+					{
+						_class = "RenderMeshFile"
+						name = "vr_alyxgun_attach_base"
+						filename = "models/weapons/vr_alyxgun/vr_alyxgun_attach_base_vr_alyxgun_attach_base.dmx"
+					},
+				]
+			},
+			
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "animation_root_bone2"
+							radius = 1.000000
+							point0 = 
+							[
+								0.000000,
+								0.500000,
+								4.250000,
+							]
+							point1 = 
+							[
+								0.000000,
+								0.500000,
+								7.250000,
+							]
+						}
+					},
+				]
+			},
+			
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					
+					{
+						_class = "Bone"
+						name = "animation_root_bone2"
+						origin = 
+						[
+							-0.000000,
+							0.000000,
+							-0.000000,
+						]
+						angles = 
+						[
+							0.000027,
+							89.999980,
+							89.999980,
+						]
+						do_not_discard = true
+						children = 
+						[
+							
+							{
+								_class = "Bone"
+								name = "button2"
+								origin = 
+								[
+									0.027157,
+									-0.055160,
+									4.044691,
+								]
+								angles = 
+								[
+									0.000017,
+									0.000002,
+									0.000010,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "front_handle"
+								origin = 
+								[
+									-0.033196,
+									-0.015203,
+									4.972986,
+								]
+								angles = 
+								[
+									0.000017,
+									0.000002,
+									0.000010,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "button1"
+								origin = 
+								[
+									0.027804,
+									0.604937,
+									4.183128,
+								]
+								angles = 
+								[
+									0.000017,
+									0.000002,
+									0.000010,
+								]
+								do_not_discard = true
+							},
+						]
+					},
+				]
+			},
+		]
+	}
+}

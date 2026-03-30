@@ -1,0 +1,92 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_xen_foliage.vfx"
+
+	//---- PBR ----
+	F_METALNESS_TEXTURE 1
+
+	//---- Self Illum ----
+	F_SELF_ILLUM 1
+
+	//---- Xen ----
+	F_DISABLE_FLASHLIGHT_INTERACTION 1
+	F_XEN_GLOW 1
+
+	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionDirectDiffuse "1.000"
+	g_flAmbientOcclusionDirectSpecular "1.000"
+	g_vAmbientOcclusionColorBleed "[0.400000 0.149020 0.129412 0.000000]"
+	TextureAmbientOcclusion "materials/models/items/crafting_metal/resin_pucks_emissive_1d721e2b_ao.png"
+
+	//---- Color ----
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureColor "materials/models/items/crafting_metal/resin_pucks_color.png"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Hand Interaction Glow ----
+	g_flXenHandGlowStrength "0.200"
+	g_vXenHandGlowColor "[0.294118 0.000000 0.509804 1.000000]"
+	HandInteractionGlow "materials/models/items/crafting_metal/resin_pucks_emissive.png"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Metalness ----
+	TextureMetalness "materials/models/items/crafting_metal/resin_pucks_8e1f02cb_metal.png"
+
+	//---- Normal ----
+	g_flDiffuseNormalBlur "0.500"
+	TextureNormal "materials/models/items/crafting_metal/resin_pucks_normal.png"
+
+	//---- Roughness ----
+	TextureRoughness "materials/models/items/crafting_metal/resin_pucks_d317b70_rough.png"
+
+	//---- Self Illum ----
+	g_flSelfIllumBrightness "1.500"
+	g_flSelfIllumCustomFlowTimer "0.000"
+	g_flSelfIllumFlowAmount "1.000"
+	g_flSelfIllumFlowFrequency "0.200"
+	g_flSelfIllumFlowSpeed "0.489"
+	g_flSelfIllumOverallScale "1.000"
+	g_vSelfIllumTint "[0.913726 0.870588 0.662745 1.000000]"
+	TextureSelfIllumFlowPhase "materials/models/items/crafting_metal/resin_pucks_emissive_1d721e2b_phase.png"
+	TextureSelfIllumFlowWaveform "models/creatures/headcrab_reviver/materials/reviver_selfillum_wave.png"
+	TextureSelfIllumMask "materials/models/items/crafting_metal/resin_pucks_emissive.png"
+
+	//---- Texture Coordinates ----
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+
+	//---- Transmission ----
+	g_flDiffuseExponent "1.000"
+	g_flDiffuseWrap "1.000"
+	g_flTransmissionFalloffDistance "75.000"
+	g_vDiffuseWrapColor "[0.294118 0.000000 0.509804 1.000000]"
+	g_vTransmissionColor "[0.294118 0.000000 0.509804 1.000000]"
+	g_vTransmissionFalloffColor "[1.000000 0.501961 0.301961 0.000000]"
+	TextureTransmissiveMask "materials/models/items/crafting_metal/resin_pucks_emissive_1d721e2b_trans.png"
+
+	//---- Xen ----
+	g_bRespondsToXenExcitation "1"
+	g_bRespondsToXenExcitation "1"
+	g_flXenMovementScale "0.000"
+	g_vXenGlowCenterPos "[0.000 0.000 0.000]"
+	g_vXenWorldSpaceMotionScale "[1.000 1.000 1.000]"
+	TextureXenGlowMask "materials/models/items/crafting_metal/resin_pucks_emissive.png"
+
+	//---- Xen Glow ----
+	g_flXenGlowPower "8.000"
+	g_flXenGlowRadius "3.000"
+	g_flXenGlowUserBrightness "1.000"
+	g_vXenGlowColor "[0.294118 0.000000 0.509804 1.000000]"
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties "base.metal"
+	}
+}
